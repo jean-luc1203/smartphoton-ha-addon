@@ -1,3 +1,7 @@
+## 0.0.22
+- ajout logo smartphoton
+- mise a jour flows
+
 ## 0.0.21
 - Add flows 
 
