@@ -1,3 +1,6 @@
+## 0.0.21
+- Add flows 
+
 ## 0.0.20
 - Mise a jour node-red-node-serialport en 2.0.0
 - Ajout d'un exemple de controle avec vérification des usb
