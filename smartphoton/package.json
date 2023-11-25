@@ -50,7 +50,8 @@
     "node-red-contrib-ui-media":"2.0.0",
     "node-red-contrib-ui-level":"0.1.46",
     "node-red-contrib-zip":"1.1.0",
-    "node-red-node-ui-iframe": "0.2.1"
+    "node-red-node-ui-iframe": "0.2.1",
+    "node-red-contrib-ip": "1.0.1"
     
   },
   "engines": {
