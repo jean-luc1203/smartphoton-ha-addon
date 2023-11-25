@@ -1,3 +1,6 @@
+## 0.0.28
+- parce que j avais pas envie d aller dormir
+
 ## 0.0.27
 - ajout flow mqtt externe
 - ajout node red contrib ip au package json
