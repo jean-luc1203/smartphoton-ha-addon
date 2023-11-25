@@ -70,8 +70,8 @@ schema:
   #  - str
   #npm_packages:
   #  - str
-  init_commands:
-    - str
+  #init_commands:
+  #  - str
   leave_front_door_open: bool?
   safe_mode: bool?
   max_old_space_size: int?
