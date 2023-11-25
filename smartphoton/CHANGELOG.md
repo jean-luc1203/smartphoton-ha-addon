@@ -1,3 +1,7 @@
+## 0.0.26
+- ajout ttyEASUN et ttyjkbms
+- modification et activation flow jkbms
+
 ## 0.0.23
 - Modification de la configuration
 
