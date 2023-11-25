@@ -230,6 +230,14 @@
         "env": []
     },
     {
+        "id": "afe36e8c80b40b0b",
+        "type": "tab",
+        "label": "mqtt externe",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "4f6b87ae.7d3bb",
         "type": "subflow",
         "name": "List Files",
@@ -891,9 +899,7 @@
             "bae6e385aa4ec6d4"
         ],
         "x": 94,
-        "y": 1378,
-        "w": 1012,
-        "h": 443
+        "y": 1378
     },
     {
         "id": "345d8024920b09fe",
@@ -934,9 +940,7 @@
             "d1d08e84cea2f06f"
         ],
         "x": 94,
-        "y": 1838,
-        "w": 1012,
-        "h": 443
+        "y": 1838
     },
     {
         "id": "9b1ae0f210074f94",
@@ -977,9 +981,7 @@
             "f3dd892204e2b187"
         ],
         "x": 94,
-        "y": 2319,
-        "w": 1012,
-        "h": 462
+        "y": 2319
     },
     {
         "id": "8e87dd14e6fcf00e",
@@ -1021,9 +1023,7 @@
             "6706608a04a34d14"
         ],
         "x": 94,
-        "y": 2799,
-        "w": 1012,
-        "h": 442
+        "y": 2799
     },
     {
         "id": "fef0d54678ec9f64",
@@ -1065,9 +1065,7 @@
             "f913780bc1121328"
         ],
         "x": 94,
-        "y": 3258,
-        "w": 1012,
-        "h": 423
+        "y": 3258
     },
     {
         "id": "0f1ddebd14db3f5c",
@@ -1108,9 +1106,7 @@
             "72d5e3cde9e5ad6f"
         ],
         "x": 94,
-        "y": 3718,
-        "w": 1012,
-        "h": 443
+        "y": 3718
     },
     {
         "id": "03bf54e748b51c6f",
@@ -1134,9 +1130,7 @@
             "fd35d5b92f5145c8"
         ],
         "x": 84,
-        "y": 19,
-        "w": 1034,
-        "h": 369.5
+        "y": 19
     },
     {
         "id": "d4fda5ba9738f7b6",
@@ -1722,9 +1716,7 @@
             "07ff7f5e423caad3"
         ],
         "x": 44,
-        "y": 3739,
-        "w": 582,
-        "h": 202
+        "y": 3739
     },
     {
         "id": "74c2da55822c35af",
@@ -1758,9 +1750,7 @@
             "2f251bfcde310e4d"
         ],
         "x": 24,
-        "y": 107,
-        "w": 1302,
-        "h": 394
+        "y": 107
     },
     {
         "id": "3f42cdab725bd0b1",
@@ -1794,9 +1784,7 @@
             "6e38784968749a12"
         ],
         "x": 34,
-        "y": 2307,
-        "w": 1302,
-        "h": 374
+        "y": 2307
     },
     {
         "id": "515dc24bb5f37d7a",
@@ -1827,9 +1815,7 @@
             "3f1fb0e08f80d28f"
         ],
         "x": 34,
-        "y": 539,
-        "w": 1222,
-        "h": 375
+        "y": 539
     },
     {
         "id": "32d712c891dc5c4f",
@@ -1855,9 +1841,7 @@
             "aed5a8b149cb2cdf"
         ],
         "x": 34,
-        "y": 959,
-        "w": 1142,
-        "h": 282
+        "y": 959
     },
     {
         "id": "c3ed0530bc8e2e23",
@@ -2400,9 +2384,7 @@
             "95eeb59b5e88ddef"
         ],
         "x": 84,
-        "y": 419,
-        "w": 1032,
-        "h": 502
+        "y": 419
     },
     {
         "id": "6cd32848ed345564",
@@ -2441,9 +2423,7 @@
             "cc61b16aefd093cc"
         ],
         "x": 94,
-        "y": 939,
-        "w": 1032,
-        "h": 422
+        "y": 939
     },
     {
         "id": "5104f7ed4bb8bc4c",
@@ -3802,9 +3782,7 @@
             "8b370dfcfdd4f108"
         ],
         "x": 24,
-        "y": 1779,
-        "w": 1302,
-        "h": 462
+        "y": 1779
     },
     {
         "id": "2726ec344a2495b9",
@@ -3842,9 +3820,7 @@
             "7f6089b63cbb9d81"
         ],
         "x": 34,
-        "y": 1279,
-        "w": 1292,
-        "h": 462
+        "y": 1279
     },
     {
         "id": "3e0d985e0de22b96",
@@ -3883,9 +3859,7 @@
             "9cd220e80fb7452c"
         ],
         "x": 24,
-        "y": 3239,
-        "w": 1342,
-        "h": 462
+        "y": 3239
     },
     {
         "id": "cedbc47f55778969",
@@ -3924,9 +3898,7 @@
             "23268ff861b2d9a1"
         ],
         "x": 34,
-        "y": 2719,
-        "w": 1292,
-        "h": 442
+        "y": 2719
     },
     {
         "id": "071c189623da2624",
@@ -4518,6 +4490,47 @@
         "y": 7.733329772949219
     },
     {
+        "id": "d262ef2a3778a232",
+        "type": "group",
+        "z": "1e973a79.11c9b6",
+        "name": "Paramètre 11 - Courant de charge max. secteur",
+        "style": {
+            "stroke": "#ffC000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "c4b116df40c5472f",
+            "1c8949d165fc45f7",
+            "abb85188dd971b48",
+            "6060a58bd0451c35",
+            "e516a06daffc6e7b",
+            "83d3f8b93875bc94",
+            "38f3b37bb66cd617",
+            "427c7ae9be3a9a14",
+            "7c5c9f5844b0c1e7",
+            "d9f61dc4b17f53c0",
+            "888226d368036a8c",
+            "0998b2382570f675",
+            "f62776b280d986d4",
+            "19abb9d91c0e56b0",
+            "82c7b99ebb4c0bfb",
+            "146c4dfa93061d9a",
+            "315a5302903dcdcf",
+            "a0a10afa719b0d09",
+            "b1396d750398bd34",
+            "5cb291d80b7b29b9",
+            "d5709db22ccc2e76",
+            "2fe7f2f15370fa1e",
+            "bef6348a29a5369a",
+            "576373059a154ad1",
+            "96094ce302e4bce5",
+            "0ce078d3638f44b3"
+        ],
+        "x": 34,
+        "y": 3979
+    },
+    {
         "id": "e5866718fcf2b9de",
         "type": "group",
         "z": "60077e455ede6a5a",
@@ -4670,53 +4683,55 @@
         "y": 2819
     },
     {
-        "id": "d262ef2a3778a232",
+        "id": "2b190749609c8bc8",
         "type": "group",
-        "z": "1e973a79.11c9b6",
-        "name": "Paramètre 11 - Courant de charge max. secteur",
+        "z": "afe36e8c80b40b0b",
+        "name": "Read Topic Onduleur/Modification-Parametres on extrenal Broker ",
         "style": {
-            "stroke": "#ffC000",
+            "stroke": "#0070c0",
             "label": true,
-            "color": "#000000"
+            "color": "#0070c0"
         },
         "nodes": [
-            "c4b116df40c5472f",
-            "1c8949d165fc45f7",
-            "abb85188dd971b48",
-            "6060a58bd0451c35",
-            "e516a06daffc6e7b",
-            "83d3f8b93875bc94",
-            "38f3b37bb66cd617",
-            "427c7ae9be3a9a14",
-            "7c5c9f5844b0c1e7",
-            "d9f61dc4b17f53c0",
-            "888226d368036a8c",
-            "0998b2382570f675",
-            "f62776b280d986d4",
-            "19abb9d91c0e56b0",
-            "82c7b99ebb4c0bfb",
-            "146c4dfa93061d9a",
-            "315a5302903dcdcf",
-            "a0a10afa719b0d09",
-            "b1396d750398bd34",
-            "5cb291d80b7b29b9",
-            "d5709db22ccc2e76",
-            "2fe7f2f15370fa1e",
-            "bef6348a29a5369a",
-            "576373059a154ad1",
-            "96094ce302e4bce5",
-            "0ce078d3638f44b3"
+            "bff6451a36c28461",
+            "c26e986b1fbfacdb",
+            "c18e4b3213a65323",
+            "317f1d98206d295a",
+            "1995ccfb2f616a7b"
         ],
-        "x": 34,
-        "y": 3979,
-        "w": 1262,
-        "h": 402
+        "x": 84,
+        "y": 879,
+        "w": 1062,
+        "h": 142
+    },
+    {
+        "id": "6af09e6e8adfc77c",
+        "type": "group",
+        "z": "afe36e8c80b40b0b",
+        "name": "Permet de modifier les Paramètres de l'onduleur depuis Home Assistant",
+        "style": {
+            "stroke": "#0070c0",
+            "label": true,
+            "color": "#0070c0"
+        },
+        "nodes": [
+            "b046311146cdbc9e",
+            "f9272ce6484437e6",
+            "bf537690172dccca",
+            "14fc8c78a83367b0",
+            "c551ed32160b05a7",
+            "28c5158bbfd5c394"
+        ],
+        "x": 394,
+        "y": 699,
+        "w": 932,
+        "h": 122
     },
     {
         "id": "267673c4.e4afdc",
         "type": "serial-port",
         "name": "",
-        "serialport": "/dev/tty-onduleur",
+        "serialport": "/dev/ttyS2",
         "serialbaud": "2400",
         "databits": "8",
         "parity": "none",
@@ -4946,15 +4961,6 @@
         "hidden": false
     },
     {
-        "id": "6961fba363401971",
-        "type": "ui_tab",
-        "name": "Growatt",
-        "icon": "dashboard",
-        "order": 39,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "4faf2d3617e96e2a",
         "type": "ui_spacer",
         "z": "71d0ece9.0b5224",
@@ -5166,7 +5172,7 @@
     {
         "id": "233d839231da5a67",
         "type": "serial-port",
-        "serialport": "/dev/tty-pylontech",
+        "serialport": "/dev/ttyS3",
         "serialbaud": "115200",
         "databits": "8",
         "parity": "none",
@@ -11616,6 +11622,36 @@
         ],
         "resend": false,
         "debugEnabled": false
+    },
+    {
+        "id": "c4bd841884f23469",
+        "type": "ui_spacer",
+        "z": "afe36e8c80b40b0b",
+        "name": "spacer",
+        "group": "bfcf37d95bbc795d",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "1cc8c4988850dd42",
+        "type": "ui_spacer",
+        "z": "afe36e8c80b40b0b",
+        "name": "spacer",
+        "group": "bfcf37d95bbc795d",
+        "order": 7,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "2b680239abee24d8",
+        "type": "ui_spacer",
+        "z": "afe36e8c80b40b0b",
+        "name": "spacer",
+        "group": "bfcf37d95bbc795d",
+        "order": 10,
+        "width": 6,
+        "height": 1
     },
     {
         "id": "208379c0.81563e",
@@ -75858,6 +75894,1780 @@
         "wires": [
             [
                 "93f15909d0c44bea"
+            ]
+        ]
+    },
+    {
+        "id": "c5953f926310abb6",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Smartphoton Global",
+        "rules": [
+            {
+                "t": "set",
+                "p": "model",
+                "pt": "msg",
+                "to": "Version",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "name",
+                "pt": "msg",
+                "to": "Onduleur",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "manufacturer",
+                "pt": "msg",
+                "to": "Smartphoton",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "value",
+                "pt": "msg",
+                "to": "{{value}}",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "name_id",
+                "pt": "msg",
+                "to": "onduleur",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "configuration_url",
+                "pt": "msg",
+                "to": "ip4-smartphoton",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 340,
+        "wires": [
+            [
+                "218edf31c6fb438a",
+                "bf537690172dccca",
+                "27add39949b13439"
+            ]
+        ]
+    },
+    {
+        "id": "278ccdb75f1590cc",
+        "type": "inject",
+        "z": "afe36e8c80b40b0b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 180,
+        "wires": [
+            [
+                "2776558688bab6c7"
+            ]
+        ]
+    },
+    {
+        "id": "218edf31c6fb438a",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "type sensor",
+        "rules": [
+            {
+                "t": "set",
+                "p": "type_ha",
+                "pt": "msg",
+                "to": "sensor",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 340,
+        "wires": [
+            [
+                "bc13a695b8679357",
+                "00b66e3bcdb0cbac",
+                "7a352d4b8ac5e316",
+                "7628dbf95ed30296",
+                "1de957bc0c737262",
+                "f1e87778d2a791e6",
+                "52244d229ef8d5a5",
+                "ef1f97395828bbac",
+                "69debf5bf583de09",
+                "47f2eaf76d9de1fe",
+                "69c118c7802dd19d"
+            ]
+        ]
+    },
+    {
+        "id": "bc13a695b8679357",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Puissance",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_device_class",
+                "pt": "msg",
+                "to": "\"device_class\": \"energy\",",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_unit_of_measurement",
+                "pt": "msg",
+                "to": "\"unit_of_measurement\": \"W\",",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_nom_unit",
+                "pt": "msg",
+                "to": "watt",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 80,
+        "wires": [
+            [
+                "ba4b487f115752d2",
+                "b6588df1b0c56207",
+                "1d88b734a916fe79",
+                "c49c92afff72dd10"
+            ]
+        ]
+    },
+    {
+        "id": "00b66e3bcdb0cbac",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Voltage",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_device_class",
+                "pt": "msg",
+                "to": "\"device_class\": \"voltage\",",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_unit_of_measurement",
+                "pt": "msg",
+                "to": "\"unit_of_measurement\": \"V\",",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_nom_unit",
+                "pt": "msg",
+                "to": "volt",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 220,
+        "wires": [
+            [
+                "36a40ad97f361f63",
+                "81b240565b774b68"
+            ]
+        ]
+    },
+    {
+        "id": "ba4b487f115752d2",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Onduleur PV Puissance (Watt)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Onduleur PV Puissance (Watt)",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "PhotoVoltaique-Watt",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "pv",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_icon",
+                "pt": "msg",
+                "to": "\"icon\": \"mdi:solar-power-variant\",",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 20,
+        "wires": [
+            [
+                "14a484397bcc9600"
+            ]
+        ]
+    },
+    {
+        "id": "14a484397bcc9600",
+        "type": "template",
+        "z": "afe36e8c80b40b0b",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n  \"name\": \"{{ha_name_topic}}\",\n  {{{ha_entity_category}}}\n  {{{ha_device_class}}} \n  {{{ha_unit_of_measurement}}}\n  \"state_topic\": \"Onduleur/{{ha_state_topic}}\", \n  \"value_template\": \"{{ value }}\",\n  \"object_id\":\"{{name_id}}_{{ha_type_topic}}_{{ha_nom_unit}}\",\n  \"unique_id\": \"{{name_id}}_{{type_ha}}_{{ha_type_topic}}_{{ha_nom_unit}}\", \n  {{{ha_icon}}}\n  \"device\":{\n    \"manufacturer\":\"{{manufacturer}}\",\n\t  \"name\":\"{{name}}\", \n\t  \"model\":\"{{model}}\",\n    \"configuration_url\": \"{{{configuration_url}}}\",\n\t  \"identifiers\":[\"{{name_id}}\"]\n\t}\n}",
+        "output": "str",
+        "x": 1240,
+        "y": 340,
+        "wires": [
+            [
+                "3bc47f6a83a7128f"
+            ]
+        ]
+    },
+    {
+        "id": "3bc47f6a83a7128f",
+        "type": "template",
+        "z": "afe36e8c80b40b0b",
+        "name": "",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "homeassistant/{{type_ha}}/{{name_id}}/{{name_id}}_{{type_ha}}_{{ha_type_topic}}_{{ha_nom_unit}}/config",
+        "output": "str",
+        "x": 1420,
+        "y": 340,
+        "wires": [
+            [
+                "e61019b34f145fe7",
+                "dbcbced4db8ee4f2"
+            ]
+        ]
+    },
+    {
+        "id": "b6588df1b0c56207",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Onduleur Batt Charge (Watt)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Onduleur Batt Charge (Watt)",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Battery-charge",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "batt_charge",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_icon",
+                "pt": "msg",
+                "to": "\"icon\": \"mdi:battery-arrow-up-outline\",",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 60,
+        "wires": [
+            [
+                "14a484397bcc9600"
+            ]
+        ]
+    },
+    {
+        "id": "1d88b734a916fe79",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Onduleur Batt deharge (Watt)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Onduleur Batt deharge (Watt)",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Battery-discharge",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "batt_decharge",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_icon",
+                "pt": "msg",
+                "to": "\"icon\": \"mdi:battery-arrow-down-outline\",",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 100,
+        "wires": [
+            [
+                "14a484397bcc9600"
+            ]
+        ]
+    },
+    {
+        "id": "c49c92afff72dd10",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Onduleur Conso Maison (Watt)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Onduleur Conso Maison (Watt)",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "conso-maison",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "conso_maison",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_icon",
+                "pt": "msg",
+                "to": "\"icon\": \"mdi:home-lightning-bolt-outline\",",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 140,
+        "wires": [
+            [
+                "14a484397bcc9600"
+            ]
+        ]
+    },
+    {
+        "id": "36a40ad97f361f63",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Onduleur Batterie Voltage (Volt)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Onduleur Batterie Voltage (Volt)",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "battery-voltage",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "batt",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 200,
+        "wires": [
+            [
+                "14a484397bcc9600"
+            ]
+        ]
+    },
+    {
+        "id": "81b240565b774b68",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Onduleur PV Voltage (Volt)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Onduleur PV Voltage (Volt)",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "PhotoVoltaique-Voltage",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "pv",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 240,
+        "wires": [
+            [
+                "14a484397bcc9600"
+            ]
+        ]
+    },
+    {
+        "id": "7a352d4b8ac5e316",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Frequence",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_device_class",
+                "pt": "msg",
+                "to": "\"device_class\": \"frequency\",",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_unit_of_measurement",
+                "pt": "msg",
+                "to": "\"unit_of_measurement\": \"Hz\",",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_nom_unit",
+                "pt": "msg",
+                "to": "frequency",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 300,
+        "wires": [
+            [
+                "4ed207734fe56b37"
+            ]
+        ]
+    },
+    {
+        "id": "4ed207734fe56b37",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Data-Frequency (Hz)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Onduleur Data Frequency (Hz)",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Data-Frequency",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "data",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 300,
+        "wires": [
+            [
+                "14a484397bcc9600"
+            ]
+        ]
+    },
+    {
+        "id": "b046311146cdbc9e",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "g": "6af09e6e8adfc77c",
+        "name": "Paramètre 01",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Paramètre 01",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Parameter-01",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "param01",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_num_param",
+                "pt": "msg",
+                "to": "01",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 740,
+        "wires": [
+            [
+                "c551ed32160b05a7"
+            ]
+        ]
+    },
+    {
+        "id": "9b635cf64294746b",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Paramètre 02",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Paramètre 02",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Parameter-02",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "param02",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_num_param",
+                "pt": "msg",
+                "to": "02",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_num_param",
+                "pt": "msg",
+                "to": "02",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 500,
+        "wires": [
+            [
+                "2f9a6c39d41667bc"
+            ]
+        ]
+    },
+    {
+        "id": "17c86a841f09386f",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Paramètre 12",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Paramètre 12",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Parameter-12",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "param12",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_num_param",
+                "pt": "msg",
+                "to": "12",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 540,
+        "wires": [
+            [
+                "2f9a6c39d41667bc"
+            ]
+        ]
+    },
+    {
+        "id": "0bfe542e48c60bd7",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Paramètre 13",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Paramètre 13",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Parameter-13",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "param13",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_num_param",
+                "pt": "msg",
+                "to": "13",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 580,
+        "wires": [
+            [
+                "2f9a6c39d41667bc"
+            ]
+        ]
+    },
+    {
+        "id": "f9272ce6484437e6",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "g": "6af09e6e8adfc77c",
+        "name": "Paramètre 16",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Paramètre 16",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Parameter-16",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "param16",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_num_param",
+                "pt": "msg",
+                "to": "16",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 780,
+        "wires": [
+            [
+                "c551ed32160b05a7"
+            ]
+        ]
+    },
+    {
+        "id": "ffc38da8875d99fa",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Paramètre 27",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Paramètre 27",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Parameter-27",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "param27",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_num_param",
+                "pt": "msg",
+                "to": "27",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 620,
+        "wires": [
+            [
+                "2f9a6c39d41667bc"
+            ]
+        ]
+    },
+    {
+        "id": "342370e8a24b475c",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Paramètre 29",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Paramètre 29",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Parameter-29",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "param29",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_num_param",
+                "pt": "msg",
+                "to": "29",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 660,
+        "wires": [
+            [
+                "2f9a6c39d41667bc"
+            ]
+        ]
+    },
+    {
+        "id": "7628dbf95ed30296",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "battery",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_device_class",
+                "pt": "msg",
+                "to": "\"device_class\": \"battery\",",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_unit_of_measurement",
+                "pt": "msg",
+                "to": "\"unit_of_measurement\": \"%\",",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_nom_unit",
+                "pt": "msg",
+                "to": "battery",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 340,
+        "wires": [
+            [
+                "dfdc814e61352ad1"
+            ]
+        ]
+    },
+    {
+        "id": "dfdc814e61352ad1",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Onduleur Batterie Capacité",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Onduleur Batterie Capacité",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Batt-Capacite",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "batt",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 340,
+        "wires": [
+            [
+                "14a484397bcc9600"
+            ]
+        ]
+    },
+    {
+        "id": "bf537690172dccca",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "g": "6af09e6e8adfc77c",
+        "name": "type select",
+        "rules": [
+            {
+                "t": "set",
+                "p": "type_ha",
+                "pt": "msg",
+                "to": "select",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 760,
+        "wires": [
+            [
+                "14fc8c78a83367b0",
+                "28c5158bbfd5c394"
+            ]
+        ]
+    },
+    {
+        "id": "14fc8c78a83367b0",
+        "type": "template",
+        "z": "afe36e8c80b40b0b",
+        "g": "6af09e6e8adfc77c",
+        "name": "option 01",
+        "field": "ha_select",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "\"UTI\", \n\"SOL\", \n\"SBU\"",
+        "output": "str",
+        "x": 680,
+        "y": 740,
+        "wires": [
+            [
+                "b046311146cdbc9e"
+            ]
+        ]
+    },
+    {
+        "id": "c551ed32160b05a7",
+        "type": "template",
+        "z": "afe36e8c80b40b0b",
+        "g": "6af09e6e8adfc77c",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{ \n  \"name\": \"{{ha_name_topic}}\", \n  \"object_id\":\"{{name_id}}_{{ha_type_topic}}_{{ha_nom_unit}}\",\n  \"unique_id\": \"{{name_id}}_{{type_ha}}_{{ha_type_topic}}_{{ha_nom_unit}}\", \n  \"command_topic\": \"Onduleur/Modification-Parametres\",\n  \"command_template\": \"Param{{ha_num_param}}-{{value}}\",\n  \"state_topic\": \"Onduleur/{{ha_state_topic}}\", \n  \"value_template\": \"{{ value }}\",\n  \"options\":  [ {{{ha_select}}} ],\n  \"device\":{\n    \"manufacturer\":\"{{manufacturer}}\",\n  \t\"name\":\"{{name}}\", \n  \t\"model\":\"{{model}}\",\n    \"configuration_url\": \"{{{configuration_url}}}\",\n  \t\"identifiers\":[\"{{name_id}}\"]\n\t}\n}",
+        "output": "str",
+        "x": 1240,
+        "y": 760,
+        "wires": [
+            [
+                "3bc47f6a83a7128f"
+            ]
+        ]
+    },
+    {
+        "id": "28c5158bbfd5c394",
+        "type": "template",
+        "z": "afe36e8c80b40b0b",
+        "g": "6af09e6e8adfc77c",
+        "name": "option 16",
+        "field": "ha_select",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "\"CUE\",\n\"CSO\",\n\"SNU\",\n\"OSO\"",
+        "output": "str",
+        "x": 680,
+        "y": 780,
+        "wires": [
+            [
+                "f9272ce6484437e6"
+            ]
+        ]
+    },
+    {
+        "id": "27add39949b13439",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "type number",
+        "rules": [
+            {
+                "t": "set",
+                "p": "type_ha",
+                "pt": "msg",
+                "to": "number",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f9a6c39d41667bc",
+        "type": "template",
+        "z": "afe36e8c80b40b0b",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{ \n  \"name\": \"{{ha_name_topic}}\",\n  {{{ha_entity_category}}} \n  \"object_id\":\"{{name_id}}_{{ha_type_topic}}_{{ha_nom_unit}}\",\n  \"unique_id\": \"{{name_id}}_{{type_ha}}_{{ha_type_topic}}_{{ha_nom_unit}}\", \n  \"command_topic\": \"Onduleur/Modification-Parametres\",\n  \"command_template\": \"Param{{ha_num_param}}-{{value}}\",\n  \"state_topic\": \"Onduleur/{{ha_state_topic}}\", \n  \"value_template\": \"{{ value }}\",\n  \"max\": \"{{ha_number_max}}\",\n  \"min\": \"{{ha_number_min}}\",\n  \"step\": \"{{ha_number_step}}\",\n  \"device\":{\n    \"manufacturer\":\"{{manufacturer}}\",\n  \t\"name\":\"{{name}}\", \n  \t\"model\":\"{{model}}\",\n    \"configuration_url\": \"{{{configuration_url}}}\",\n  \t\"identifiers\":[\"{{name_id}}\"]\n\t}\n}",
+        "output": "str",
+        "x": 1240,
+        "y": 500,
+        "wires": [
+            [
+                "3bc47f6a83a7128f"
+            ]
+        ]
+    },
+    {
+        "id": "47f2eaf76d9de1fe",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Config option",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_number_max",
+                "pt": "msg",
+                "to": "80",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_number_min",
+                "pt": "msg",
+                "to": "10",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_number_step",
+                "pt": "msg",
+                "to": "10",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_entity_category",
+                "pt": "msg",
+                "to": "\"entity_category\": \"diagnostic\",",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 500,
+        "wires": [
+            [
+                "9b635cf64294746b"
+            ]
+        ]
+    },
+    {
+        "id": "69debf5bf583de09",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Config option",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_number_max",
+                "pt": "msg",
+                "to": "51",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_number_min",
+                "pt": "msg",
+                "to": "44",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_number_step",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_entity_category",
+                "pt": "msg",
+                "to": "\"entity_category\": \"diagnostic\",",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 540,
+        "wires": [
+            [
+                "17c86a841f09386f"
+            ]
+        ]
+    },
+    {
+        "id": "ef1f97395828bbac",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Config option",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_number_max",
+                "pt": "msg",
+                "to": "58",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_number_min",
+                "pt": "msg",
+                "to": "48",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_number_step",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_entity_category",
+                "pt": "msg",
+                "to": "\"entity_category\": \"diagnostic\",",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 580,
+        "wires": [
+            [
+                "0bfe542e48c60bd7"
+            ]
+        ]
+    },
+    {
+        "id": "52244d229ef8d5a5",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Config option",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_number_max",
+                "pt": "msg",
+                "to": "58",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_number_min",
+                "pt": "msg",
+                "to": "48",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_number_step",
+                "pt": "msg",
+                "to": "0.5",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_entity_category",
+                "pt": "msg",
+                "to": "\"entity_category\": \"diagnostic\",",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 620,
+        "wires": [
+            [
+                "ffc38da8875d99fa"
+            ]
+        ]
+    },
+    {
+        "id": "f1e87778d2a791e6",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Config option",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_number_max",
+                "pt": "msg",
+                "to": "48",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_number_min",
+                "pt": "msg",
+                "to": "42",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_number_step",
+                "pt": "msg",
+                "to": "0.5",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_entity_category",
+                "pt": "msg",
+                "to": "\"entity_category\": \"diagnostic\",",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 660,
+        "wires": [
+            [
+                "342370e8a24b475c"
+            ]
+        ]
+    },
+    {
+        "id": "1de957bc0c737262",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Mode",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_device_class",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_unit_of_measurement",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_nom_unit",
+                "pt": "msg",
+                "to": "mode",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_entity_category",
+                "pt": "msg",
+                "to": "\"entity_category\": \"diagnostic\",",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 400,
+        "wires": [
+            [
+                "7a91f059d0eca18f"
+            ]
+        ]
+    },
+    {
+        "id": "7a91f059d0eca18f",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Mode Solar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Onduleur Mode Solaire",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Inverter-solar-mode",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "mode",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 400,
+        "wires": [
+            [
+                "14a484397bcc9600"
+            ]
+        ]
+    },
+    {
+        "id": "e61019b34f145fe7",
+        "type": "link out",
+        "z": "afe36e8c80b40b0b",
+        "name": "MQTT-External-broker-ou",
+        "mode": "link",
+        "links": [
+            "7bc0d43db05cfa7b"
+        ],
+        "x": 1545,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "0df8dd9290ecf3d9",
+        "type": "function",
+        "z": "afe36e8c80b40b0b",
+        "name": "set ip4-smartphoton",
+        "func": "ip4 = msg.payload.internalIPv4;\nip4 = \"http://\" + ip4 + \":1880/ui\";\nflow.set(\"ip4-smartphoton\",ip4);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 260,
+        "wires": [
+            [
+                "c5953f926310abb6"
+            ]
+        ]
+    },
+    {
+        "id": "dbcbced4db8ee4f2",
+        "type": "debug",
+        "z": "afe36e8c80b40b0b",
+        "name": "debug 53",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1530,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "bff6451a36c28461",
+        "type": "mqtt in",
+        "z": "afe36e8c80b40b0b",
+        "g": "2b190749609c8bc8",
+        "name": "HA Modification-Parametres",
+        "topic": "",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "215683.1452d97e",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 1,
+        "x": 940,
+        "y": 980,
+        "wires": [
+            [
+                "c18e4b3213a65323"
+            ]
+        ]
+    },
+    {
+        "id": "c26e986b1fbfacdb",
+        "type": "comment",
+        "z": "afe36e8c80b40b0b",
+        "g": "2b190749609c8bc8",
+        "name": "Lire le broker externe (topic: Onduleur/Modification-Parametres)  pour voir si il faut modifier les paramètres de l'onduleur",
+        "info": "",
+        "x": 520,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "c18e4b3213a65323",
+        "type": "link out",
+        "z": "afe36e8c80b40b0b",
+        "g": "2b190749609c8bc8",
+        "name": "MQTT-Parsing-ou",
+        "mode": "link",
+        "links": [
+            "83a45673123dec75"
+        ],
+        "x": 1105,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "317f1d98206d295a",
+        "type": "function",
+        "z": "afe36e8c80b40b0b",
+        "g": "2b190749609c8bc8",
+        "name": "Read External Broker on Topic  \"Onduleur/Modification-Parametres\"",
+        "func": "msg.action = \"subscribe\";\nvar_broker = global.get(\"Broker-IP\");\nvar_port = global.get(\"Broker-Port\");\nvar_username = global.get(\"Broker-Username\");\nvar_password = global.get(\"Broker-Password\");\nmsg.topic = \"Onduleur/Modification-Parametres\";\nmsg.broker = {broker:var_broker,port:var_port,username:var_username,password:var_password};\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 980,
+        "wires": [
+            [
+                "bff6451a36c28461"
+            ]
+        ]
+    },
+    {
+        "id": "1995ccfb2f616a7b",
+        "type": "inject",
+        "z": "afe36e8c80b40b0b",
+        "g": "2b190749609c8bc8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 980,
+        "wires": [
+            [
+                "317f1d98206d295a"
+            ]
+        ]
+    },
+    {
+        "id": "2776558688bab6c7",
+        "type": "switch",
+        "z": "afe36e8c80b40b0b",
+        "name": "Home-Assitant-Integration ?",
+        "property": "Home-Assitant-Integration",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "false"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [],
+            [
+                "b3d8162bd83a840f"
+            ]
+        ]
+    },
+    {
+        "id": "69c118c7802dd19d",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Temperature",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_device_class",
+                "pt": "msg",
+                "to": "\"device_class\": \"temperature\",",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_unit_of_measurement",
+                "pt": "msg",
+                "to": "\"unit_of_measurement\": \"°\",",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_nom_unit",
+                "pt": "msg",
+                "to": "temperature",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 440,
+        "wires": [
+            [
+                "6492a3412c27410d"
+            ]
+        ]
+    },
+    {
+        "id": "6492a3412c27410d",
+        "type": "change",
+        "z": "afe36e8c80b40b0b",
+        "name": "Onduleur Temperature (°)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ha_name_topic",
+                "pt": "msg",
+                "to": "Onduleur Temperature (°)",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_state_topic",
+                "pt": "msg",
+                "to": "Temperature",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ha_type_topic",
+                "pt": "msg",
+                "to": "onduleur",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 440,
+        "wires": [
+            [
+                "14a484397bcc9600"
+            ]
+        ]
+    },
+    {
+        "id": "b3d8162bd83a840f",
+        "type": "ip",
+        "z": "afe36e8c80b40b0b",
+        "name": "ip-internal",
+        "https": false,
+        "timeout": "5000",
+        "internalIPv4": true,
+        "internalIPv6": false,
+        "publicIPv4": false,
+        "publicIPv6": false,
+        "x": 120,
+        "y": 260,
+        "wires": [
+            [
+                "0df8dd9290ecf3d9"
             ]
         ]
     }
