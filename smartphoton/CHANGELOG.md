@@ -1,3 +1,6 @@
+## 0.0.29
+- je suis une buse
+
 ## 0.0.28
 - parce que j avais pas envie d aller dormir
 
