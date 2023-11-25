@@ -48,9 +48,9 @@ options:
   ssl: false
   certfile: fullchain.pem
   keyfile: privkey.pem
-  system_packages: []
-  npm_packages: []
-  init_commands: []
+  #system_packages: []
+  #npm_packages: []
+  #init_commands: []
 schema:
   onduleur: device(subsystem=tty)
   batterie: device(subsystem=tty)
