@@ -93,7 +93,7 @@ echo $BATTERIE >> /config/smartphoton/usbBatterie
 bashio::log.info "${BATTERIE}"
 
 ttyBartterie="/dev/tty-onduleur"
-sed -i -e "s/$ttyBartterie/$ONDULEUR/g" /config/smartphoton/flows.json
+sed -i -e "s/$ttyBartterie/$BATTERIE/g" /config/smartphoton/flows.json
 
 
 
