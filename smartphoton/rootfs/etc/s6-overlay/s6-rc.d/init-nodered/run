@@ -2,7 +2,7 @@
 # shellcheck shell=bash
 # ==============================================================================
 # Home Assistant Community Add-on: Node-RED
-# Configures Node-RED before running 
+# Configures Node-RED before running
 # ==============================================================================
 declare port
 
@@ -68,7 +68,6 @@ fi
 #batterie=$(bashio::config 'batterie')
 #onduleur=$(bashio::config 'onduleur')
 
-
 if bashio::fs.file_exists '/config/smartphoton/usbOnduleur'; then
   rm /config/smartphoton/usbOnduleur
 fi
@@ -83,17 +82,27 @@ ONDULEUR=$(bashio::config 'onduleur')
 echo $ONDULEUR >> /config/smartphoton/usbOnduleur
 bashio::log.info "${ONDULEUR}"
 
-#remplaace osb de l'onduleur
-ttyOnduleur="/dev/tty-onduleur"
-sed -i -e "s/$ttyOnduleur/$ONDULEUR/g" /config/smartphoton/flows.json
 
 touch /config/smartphoton/usbBatterie
 BATTERIE=$(bashio::config 'batterie')
 echo $BATTERIE >> /config/smartphoton/usbBatterie
 bashio::log.info "${BATTERIE}"
 
-#ttyBartterie="/dev/tty-pylontech"
-#sed -i -e "s/$ttyBartterie/$BATTERIE/g" /config/smartphoton/flows.json
+
+#remplace usb de l'onduleur
+ttyOnduleur="/dev/tty-onduleur"
+echo $ttyOnduleur
+echo $ONDULEUR
+
+sed -i -e "s@$ttyOnduleur@$ONDULEUR@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
+
+
+#remplace usb de l'pylontech
+ttyPylontech="/dev/tty-pylontech"
+echo $ttyPylontech
+echo $ONDULEUR
+
+sed -i -e "s@$ttyPylontech@$BATTERIE@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
 
 
 
