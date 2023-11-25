@@ -232,7 +232,7 @@
     {
         "id": "afe36e8c80b40b0b",
         "type": "tab",
-        "label": "mqtt externe préformaté",
+        "label": "mqtt externe",
         "disabled": false,
         "info": "",
         "env": []
