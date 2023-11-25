@@ -170,7 +170,7 @@
         "id": "99c7561be29cc216",
         "type": "tab",
         "label": "JK-BMS",
-        "disabled": true,
+        "disabled": false,
         "info": "",
         "env": []
     },
@@ -408,28 +408,28 @@
         "nodes": [
             "01ee58d7c5fd268a",
             "cf8ae2f02b352739",
-            "36e1b988a1fbe379",
-            "6dbde22c51c509f0",
             "b8c558d64c94f529",
-            "a0f06b16af7964ab",
             "1e5e6ca7aac33821",
-            "3431a0e0bc4a3bc8",
             "a3bd49988b35a09c",
-            "e207bbf1fe0db5d0",
             "d2f2ea2aeebf3462",
-            "9bfe33c41fdebb97",
             "c97cd06d0ff781db",
-            "6aaf242382768f48",
             "a3ede1b107aef814",
-            "f43641133fd9215a",
             "5a1b09e0b27c5215",
             "72c474dc82e55d50",
             "3d0d6e41c93bb8ba",
-            "aa8ecb6177ab1666",
-            "4f91154753a6eed4"
+            "1ec6e01edbae5add",
+            "8a1a6d6765f43eb3",
+            "af7e1a4713c64efb",
+            "159becb25eb89e5d",
+            "b6717f87cd589899",
+            "f8704d61f94031fc",
+            "534a20cc466447e2",
+            "d97d2fd67016b326"
         ],
         "x": 34,
-        "y": 559
+        "y": 559,
+        "w": 632,
+        "h": 442
     },
     {
         "id": "1481ac7724bca4cc",
@@ -481,7 +481,9 @@
             "54573a4224c122c8"
         ],
         "x": 24,
-        "y": 1459
+        "y": 1459,
+        "w": 682,
+        "h": 742
     },
     {
         "id": "8afb31fc399a83c1",
@@ -503,10 +505,6 @@
             "4899fdfe7805af86",
             "d6c87277df60ccfd",
             "fa4b2a15ff02795e",
-            "de27c359f977a52c",
-            "9bd9ee51e9f4f057",
-            "98a06fe4cda4161e",
-            "582ab068f85ae445",
             "4dfbd16d312f82e7",
             "c8b3575f32e86834",
             "99c8b160af07f46f",
@@ -518,10 +516,16 @@
             "d4c56e8d16d10ff5",
             "2af4d69a5a5eb443",
             "fd226d4a6cb3c80c",
-            "047a77407ad8fb66"
+            "047a77407ad8fb66",
+            "5bf3b462a1b0ed57",
+            "ccb01ace25fc2eb9",
+            "43dbe93c67733f28",
+            "77783fd665b2d5f0"
         ],
         "x": 44,
-        "y": 1039
+        "y": 1039,
+        "w": 922,
+        "h": 382
     },
     {
         "id": "d99e78c4452ed7e1",
@@ -552,7 +556,9 @@
             "385c7335939f73ad"
         ],
         "x": 34,
-        "y": 239
+        "y": 239,
+        "w": 992,
+        "h": 282
     },
     {
         "id": "0146df0dcb4d603c",
@@ -574,7 +580,9 @@
             "2661cf8fb0242601"
         ],
         "x": 174,
-        "y": 59
+        "y": 59,
+        "w": 612,
+        "h": 122
     },
     {
         "id": "e5be15888001097d",
@@ -891,9 +899,7 @@
             "bae6e385aa4ec6d4"
         ],
         "x": 94,
-        "y": 1378,
-        "w": 1012,
-        "h": 443
+        "y": 1378
     },
     {
         "id": "345d8024920b09fe",
@@ -934,9 +940,7 @@
             "d1d08e84cea2f06f"
         ],
         "x": 94,
-        "y": 1838,
-        "w": 1012,
-        "h": 443
+        "y": 1838
     },
     {
         "id": "9b1ae0f210074f94",
@@ -977,9 +981,7 @@
             "f3dd892204e2b187"
         ],
         "x": 94,
-        "y": 2319,
-        "w": 1012,
-        "h": 462
+        "y": 2319
     },
     {
         "id": "8e87dd14e6fcf00e",
@@ -1021,9 +1023,7 @@
             "6706608a04a34d14"
         ],
         "x": 94,
-        "y": 2799,
-        "w": 1012,
-        "h": 442
+        "y": 2799
     },
     {
         "id": "fef0d54678ec9f64",
@@ -1065,9 +1065,7 @@
             "f913780bc1121328"
         ],
         "x": 94,
-        "y": 3258,
-        "w": 1012,
-        "h": 423
+        "y": 3258
     },
     {
         "id": "0f1ddebd14db3f5c",
@@ -1108,9 +1106,7 @@
             "72d5e3cde9e5ad6f"
         ],
         "x": 94,
-        "y": 3718,
-        "w": 1012,
-        "h": 443
+        "y": 3718
     },
     {
         "id": "03bf54e748b51c6f",
@@ -1134,9 +1130,7 @@
             "fd35d5b92f5145c8"
         ],
         "x": 84,
-        "y": 19,
-        "w": 1034,
-        "h": 369.5
+        "y": 19
     },
     {
         "id": "d4fda5ba9738f7b6",
@@ -1881,7 +1875,9 @@
             "39aea9d23c90d4a8"
         ],
         "x": 24,
-        "y": 999
+        "y": 999,
+        "w": 952,
+        "h": 202
     },
     {
         "id": "bc1623487dad1449",
@@ -1908,7 +1904,9 @@
             "a5d188ccabff5033"
         ],
         "x": 34,
-        "y": 719
+        "y": 719,
+        "w": 1252,
+        "h": 249.5
     },
     {
         "id": "83ce8ce3be0872de",
@@ -1936,7 +1934,9 @@
             "0eec413e4efe5db2"
         ],
         "x": 24,
-        "y": 399
+        "y": 399,
+        "w": 1182,
+        "h": 302
     },
     {
         "id": "f96877104deacc20",
@@ -1965,7 +1965,9 @@
             "7456115becd779e4"
         ],
         "x": 24,
-        "y": 19
+        "y": 19,
+        "w": 1072,
+        "h": 342
     },
     {
         "id": "dc7bda4c88fa6015",
@@ -2023,7 +2025,9 @@
             "2ec4d14947d2e093"
         ],
         "x": 24,
-        "y": 1219
+        "y": 1219,
+        "w": 1462,
+        "h": 682
     },
     {
         "id": "38f6c8682f23a746",
@@ -2400,9 +2404,7 @@
             "95eeb59b5e88ddef"
         ],
         "x": 84,
-        "y": 419,
-        "w": 1032,
-        "h": 502
+        "y": 419
     },
     {
         "id": "6cd32848ed345564",
@@ -2441,9 +2443,7 @@
             "cc61b16aefd093cc"
         ],
         "x": 94,
-        "y": 939,
-        "w": 1032,
-        "h": 422
+        "y": 939
     },
     {
         "id": "5104f7ed4bb8bc4c",
@@ -2534,7 +2534,9 @@
             "186b6801f805a3fc"
         ],
         "x": 44,
-        "y": 1759
+        "y": 1759,
+        "w": 1022,
+        "h": 342
     },
     {
         "id": "b2894c4ebc4bb9ac",
@@ -2560,7 +2562,9 @@
             "359c6b47a96b41da"
         ],
         "x": 34,
-        "y": 1479
+        "y": 1479,
+        "w": 952,
+        "h": 202
     },
     {
         "id": "4c713024da0c68ea",
@@ -2590,7 +2594,9 @@
             "ae67eacc36035461"
         ],
         "x": 134,
-        "y": 1219
+        "y": 1219,
+        "w": 1302,
+        "h": 242
     },
     {
         "id": "706f86f652241a67",
@@ -2617,7 +2623,9 @@
             "70444149.12a73"
         ],
         "x": 24,
-        "y": 979
+        "y": 979,
+        "w": 1122,
+        "h": 162
     },
     {
         "id": "71cf74d6e6e16bcb",
@@ -2644,7 +2652,9 @@
             "e3b6f800.3edcc8"
         ],
         "x": 134,
-        "y": 739
+        "y": 739,
+        "w": 1132,
+        "h": 162
     },
     {
         "id": "f7c2370941f12e97",
@@ -2671,7 +2681,9 @@
             "37a87eb4.0f3df2"
         ],
         "x": 34,
-        "y": 499
+        "y": 499,
+        "w": 1222,
+        "h": 162
     },
     {
         "id": "973d3cbdfb6381de",
@@ -2698,7 +2710,9 @@
             "e9bfc901.f58ca8"
         ],
         "x": 142,
-        "y": 259
+        "y": 259,
+        "w": 1202,
+        "h": 163
     },
     {
         "id": "f2d1c9c7889ff83f",
@@ -2725,7 +2739,9 @@
             "70c73e5a.8a41e"
         ],
         "x": 34,
-        "y": 13
+        "y": 13,
+        "w": 1142,
+        "h": 182
     },
     {
         "id": "28fdf3af071e2404",
@@ -2745,7 +2761,9 @@
             "021e42e325e48eaa"
         ],
         "x": 44,
-        "y": 2159
+        "y": 2159,
+        "w": 862,
+        "h": 142
     },
     {
         "id": "9fcf14415bddc492",
@@ -2769,7 +2787,9 @@
             "aa09db01eac80e30"
         ],
         "x": 34,
-        "y": 1939
+        "y": 1939,
+        "w": 972,
+        "h": 182
     },
     {
         "id": "f214bfd06927a5e0",
@@ -4320,9 +4340,7 @@
             "1d6e9c6f364b73ef"
         ],
         "x": 34,
-        "y": 499,
-        "w": 763,
-        "h": 122
+        "y": 499
     },
     {
         "id": "de7da1a2b4bd6ff7",
@@ -4349,9 +4367,7 @@
             "3efbdc3852e5e33e"
         ],
         "x": 34,
-        "y": 119,
-        "w": 769,
-        "h": 362
+        "y": 119
     },
     {
         "id": "109a1647e199e545",
@@ -4378,7 +4394,9 @@
             "656bdb6de4ebad26"
         ],
         "x": 44,
-        "y": 2319
+        "y": 2319,
+        "w": 882,
+        "h": 182
     },
     {
         "id": "63d8d05a590e81e2",
@@ -4398,7 +4416,9 @@
             "8844a308ea1e6a65"
         ],
         "x": 1584,
-        "y": 879
+        "y": 879,
+        "w": 262,
+        "h": 82
     },
     {
         "id": "9dbc674084c7bb4d",
@@ -4421,7 +4441,9 @@
             "baca6de9b7819732"
         ],
         "x": -2,
-        "y": 1599
+        "y": 1599,
+        "w": 1674,
+        "h": 1528
     },
     {
         "id": "96a69e530d48982f",
@@ -4515,7 +4537,52 @@
             "60deffce862d44ca"
         ],
         "x": 68.73333740234375,
-        "y": 7.733329772949219
+        "y": 7.733329772949219,
+        "w": 1637.2666625976562,
+        "h": 1582
+    },
+    {
+        "id": "d262ef2a3778a232",
+        "type": "group",
+        "z": "1e973a79.11c9b6",
+        "name": "Paramètre 11 - Courant de charge max. secteur",
+        "style": {
+            "stroke": "#ffC000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "c4b116df40c5472f",
+            "1c8949d165fc45f7",
+            "abb85188dd971b48",
+            "6060a58bd0451c35",
+            "e516a06daffc6e7b",
+            "83d3f8b93875bc94",
+            "38f3b37bb66cd617",
+            "427c7ae9be3a9a14",
+            "7c5c9f5844b0c1e7",
+            "d9f61dc4b17f53c0",
+            "888226d368036a8c",
+            "0998b2382570f675",
+            "f62776b280d986d4",
+            "19abb9d91c0e56b0",
+            "82c7b99ebb4c0bfb",
+            "146c4dfa93061d9a",
+            "315a5302903dcdcf",
+            "a0a10afa719b0d09",
+            "b1396d750398bd34",
+            "5cb291d80b7b29b9",
+            "d5709db22ccc2e76",
+            "2fe7f2f15370fa1e",
+            "bef6348a29a5369a",
+            "576373059a154ad1",
+            "96094ce302e4bce5",
+            "0ce078d3638f44b3"
+        ],
+        "x": 34,
+        "y": 3979,
+        "w": 1262,
+        "h": 402
     },
     {
         "id": "e5866718fcf2b9de",
@@ -4548,7 +4615,9 @@
             "7a8e6912f7376c5f"
         ],
         "x": 44,
-        "y": 1659
+        "y": 1659,
+        "w": 1242,
+        "h": 302
     },
     {
         "id": "91da5bd9c2dbd5cf",
@@ -4584,7 +4653,9 @@
             "8a7b1bb57c298ed0"
         ],
         "x": 72.183349609375,
-        "y": 1979
+        "y": 1979,
+        "w": 1073.816650390625,
+        "h": 322
     },
     {
         "id": "0c110a1e5f4ef52a",
@@ -4633,7 +4704,9 @@
             "bf33f74ee9b46e13"
         ],
         "x": 72.183349609375,
-        "y": 2319
+        "y": 2319,
+        "w": 1073.816650390625,
+        "h": 542
     },
     {
         "id": "baca6de9b7819732",
@@ -4667,50 +4740,9 @@
             "2d2fce541bce49a4"
         ],
         "x": 24,
-        "y": 2819
-    },
-    {
-        "id": "d262ef2a3778a232",
-        "type": "group",
-        "z": "1e973a79.11c9b6",
-        "name": "Paramètre 11 - Courant de charge max. secteur",
-        "style": {
-            "stroke": "#ffC000",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "c4b116df40c5472f",
-            "1c8949d165fc45f7",
-            "abb85188dd971b48",
-            "6060a58bd0451c35",
-            "e516a06daffc6e7b",
-            "83d3f8b93875bc94",
-            "38f3b37bb66cd617",
-            "427c7ae9be3a9a14",
-            "7c5c9f5844b0c1e7",
-            "d9f61dc4b17f53c0",
-            "888226d368036a8c",
-            "0998b2382570f675",
-            "f62776b280d986d4",
-            "19abb9d91c0e56b0",
-            "82c7b99ebb4c0bfb",
-            "146c4dfa93061d9a",
-            "315a5302903dcdcf",
-            "a0a10afa719b0d09",
-            "b1396d750398bd34",
-            "5cb291d80b7b29b9",
-            "d5709db22ccc2e76",
-            "2fe7f2f15370fa1e",
-            "bef6348a29a5369a",
-            "576373059a154ad1",
-            "96094ce302e4bce5",
-            "0ce078d3638f44b3"
-        ],
-        "x": 34,
-        "y": 3979,
-        "w": 1262,
-        "h": 402
+        "y": 2819,
+        "w": 1622,
+        "h": 282
     },
     {
         "id": "267673c4.e4afdc",
@@ -4946,15 +4978,6 @@
         "hidden": false
     },
     {
-        "id": "6961fba363401971",
-        "type": "ui_tab",
-        "name": "Growatt",
-        "icon": "dashboard",
-        "order": 39,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "4faf2d3617e96e2a",
         "type": "ui_spacer",
         "z": "71d0ece9.0b5224",
@@ -5076,7 +5099,8 @@
     {
         "id": "33a190bb5f257765",
         "type": "serial-port",
-        "serialport": "/dev/tty-jkbms",
+        "name": "",
+        "serialport": "/dev/ttyjkbms",
         "serialbaud": "115200",
         "databits": "8",
         "parity": "none",
@@ -10130,7 +10154,7 @@
         "id": "1d429aea5b7b0f35",
         "type": "ha-entity-config",
         "server": "c97474b7dd5fdf3b",
-        "deviceConfig": "",
+        "deviceConfig": "a472d7145cc26f17",
         "name": "mode onduleur",
         "version": "6",
         "entityType": "select",
@@ -10144,12 +10168,12 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
-                "value": "config"
-            },
-            {
                 "property": "entity_picture",
                 "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "config"
             },
             {
                 "property": "options",
@@ -10167,7 +10191,7 @@
         "id": "acc1171803a6ae4d",
         "type": "ha-entity-config",
         "server": "c97474b7dd5fdf3b",
-        "deviceConfig": "",
+        "deviceConfig": "a472d7145cc26f17",
         "name": "courant de charge max",
         "version": "6",
         "entityType": "select",
@@ -10181,12 +10205,12 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
-                "value": "config"
-            },
-            {
                 "property": "entity_picture",
                 "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "config"
             },
             {
                 "property": "options",
@@ -10209,7 +10233,7 @@
         "id": "436a677e8d6a631e",
         "type": "ha-entity-config",
         "server": "c97474b7dd5fdf3b",
-        "deviceConfig": "",
+        "deviceConfig": "a472d7145cc26f17",
         "name": "type de batterie",
         "version": "6",
         "entityType": "select",
@@ -10223,12 +10247,12 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
-                "value": "config"
-            },
-            {
                 "property": "entity_picture",
                 "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "config"
             },
             {
                 "property": "options",
@@ -10246,7 +10270,7 @@
         "id": "9a5aac2976e78893",
         "type": "ha-entity-config",
         "server": "c97474b7dd5fdf3b",
-        "deviceConfig": "",
+        "deviceConfig": "a472d7145cc26f17",
         "name": "tension retour edf",
         "version": "6",
         "entityType": "select",
@@ -10260,12 +10284,12 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
-                "value": "config"
-            },
-            {
                 "property": "entity_picture",
                 "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "config"
             },
             {
                 "property": "options",
@@ -10296,7 +10320,7 @@
         "id": "19c2102ad805a027",
         "type": "ha-entity-config",
         "server": "c97474b7dd5fdf3b",
-        "deviceConfig": "",
+        "deviceConfig": "a472d7145cc26f17",
         "name": "tension retour batterie",
         "version": "6",
         "entityType": "select",
@@ -10310,12 +10334,12 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
-                "value": "config"
-            },
-            {
                 "property": "entity_picture",
                 "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "config"
             },
             {
                 "property": "options",
@@ -10352,7 +10376,7 @@
         "id": "24d335e7c913a08b",
         "type": "ha-entity-config",
         "server": "c97474b7dd5fdf3b",
-        "deviceConfig": "",
+        "deviceConfig": "a472d7145cc26f17",
         "name": "priorite source de charge",
         "version": "6",
         "entityType": "select",
@@ -10366,12 +10390,12 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
-                "value": "config"
-            },
-            {
                 "property": "entity_picture",
                 "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "config"
             },
             {
                 "property": "options",
@@ -10390,7 +10414,7 @@
         "id": "8bebde6261974ca5",
         "type": "ha-entity-config",
         "server": "c97474b7dd5fdf3b",
-        "deviceConfig": "",
+        "deviceConfig": "a472d7145cc26f17",
         "name": "floating",
         "version": "6",
         "entityType": "select",
@@ -10404,12 +10428,12 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
-                "value": "config"
-            },
-            {
                 "property": "entity_picture",
                 "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "config"
             },
             {
                 "property": "options",
@@ -10456,7 +10480,7 @@
         "id": "a71c5d4ee27d0456",
         "type": "ha-entity-config",
         "server": "c97474b7dd5fdf3b",
-        "deviceConfig": "",
+        "deviceConfig": "a472d7145cc26f17",
         "name": "tension arret total batterie",
         "version": "6",
         "entityType": "select",
@@ -10470,11 +10494,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -10680,7 +10704,7 @@
         "tcpHost": "192.168.0.104",
         "tcpPort": "8099",
         "tcpType": "TCP-RTU-BUFFERED",
-        "serialPort": "/dev/ttyUSB0",
+        "serialPort": "/dev/ttyEASUN",
         "serialType": "RTU-BUFFERD",
         "serialBaudrate": "9600",
         "serialDatabits": "8",
@@ -11582,7 +11606,7 @@
         "id": "f3f707355c054052",
         "type": "ha-entity-config",
         "server": "c97474b7dd5fdf3b",
-        "deviceConfig": "",
+        "deviceConfig": "a472d7145cc26f17",
         "name": "courant de charge max secteur",
         "version": "6",
         "entityType": "select",
@@ -11612,6 +11636,498 @@
                     "030",
                     "050"
                 ]
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "a96db5b73adaaecd",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-codealarme",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-codealarme"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": ""
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": ""
+            },
+            {
+                "property": "state_class",
+                "value": ""
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "ed45c83eece078d5",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-tempbatterie1",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-tempbatterie1"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": "temperature"
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": "°C"
+            },
+            {
+                "property": "state_class",
+                "value": "measurement"
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "de2a14228138913f",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-tempbatterie2",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-tempbatterie2"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": "temperature"
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": "°C"
+            },
+            {
+                "property": "state_class",
+                "value": "measurement"
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "4b7ba803c9598b7c",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-tension",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-tension"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": "voltage"
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": "V"
+            },
+            {
+                "property": "state_class",
+                "value": "measurement"
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "e8fa6e61c4a8b7a0",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-courant",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-courant"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": "current"
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": "A"
+            },
+            {
+                "property": "state_class",
+                "value": "measurement"
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "e21840a0f0ca901a",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-soc",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-soc"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": ""
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": "%"
+            },
+            {
+                "property": "state_class",
+                "value": "measurement"
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "8d5624e1f62ad6ba",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-puissance",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-puissance"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": "power"
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": "W"
+            },
+            {
+                "property": "state_class",
+                "value": "measurement"
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "7b1364c130f8e24b",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-cyclebatterie",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-cyclebatterie"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": ""
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": ""
+            },
+            {
+                "property": "state_class",
+                "value": ""
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "0f92891215ebd0db",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-statutbatterie",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-statutbatterie"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": ""
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": ""
+            },
+            {
+                "property": "state_class",
+                "value": ""
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "0c5b6b926e16c1df",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-statutcharge",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-statutcharge"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": ""
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": ""
+            },
+            {
+                "property": "state_class",
+                "value": ""
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "a2f5b6de3ad19fd6",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-statutdecharge",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-statutdecharge"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": ""
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": ""
+            },
+            {
+                "property": "state_class",
+                "value": ""
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "8cd953cc677d8594",
+        "type": "ha-entity-config",
+        "server": "c97474b7dd5fdf3b",
+        "deviceConfig": "67bca9ffa86d9ac5",
+        "name": "jk-statutbalance",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "jk-statutbalance"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": "diagnostic"
+            },
+            {
+                "property": "device_class",
+                "value": ""
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": ""
+            },
+            {
+                "property": "state_class",
+                "value": ""
             }
         ],
         "resend": false,
@@ -49784,6 +50300,7 @@
         "name": "batterie et photovoltaique",
         "showStatusActivities": false,
         "showErrors": false,
+        "showWarnings": true,
         "logIOActivities": false,
         "unitid": "1",
         "dataType": "HoldingRegister",
@@ -49795,6 +50312,8 @@
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
         "x": 404.73333740234375,
         "y": 468.7333297729492,
         "wires": [
@@ -53368,7 +53887,7 @@
         "y": 680,
         "wires": [
             [
-                "36e1b988a1fbe379"
+                "8a1a6d6765f43eb3"
             ]
         ]
     },
@@ -53396,47 +53915,9 @@
         "y": 840,
         "wires": [
             [
-                "6dbde22c51c509f0"
+                "f8704d61f94031fc"
             ]
         ]
-    },
-    {
-        "id": "36e1b988a1fbe379",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "782b7ed51c843871",
-        "name": "JKBMS/temperature1",
-        "topic": "JKBMS/temperature1",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 580,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "6dbde22c51c509f0",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "782b7ed51c843871",
-        "name": "JKBMS/soc",
-        "topic": "JKBMS/soc",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 550,
-        "y": 840,
-        "wires": []
     },
     {
         "id": "b8c558d64c94f529",
@@ -53462,28 +53943,9 @@
         "y": 760,
         "wires": [
             [
-                "a0f06b16af7964ab"
+                "159becb25eb89e5d"
             ]
         ]
-    },
-    {
-        "id": "a0f06b16af7964ab",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "782b7ed51c843871",
-        "name": "JKBMS/tension",
-        "topic": "JKBMS/tension",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 560,
-        "y": 760,
-        "wires": []
     },
     {
         "id": "1e5e6ca7aac33821",
@@ -53509,28 +53971,9 @@
         "y": 720,
         "wires": [
             [
-                "3431a0e0bc4a3bc8"
+                "af7e1a4713c64efb"
             ]
         ]
-    },
-    {
-        "id": "3431a0e0bc4a3bc8",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "782b7ed51c843871",
-        "name": "JKBMS/temperature2",
-        "topic": "JKBMS/temperature2",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 580,
-        "y": 720,
-        "wires": []
     },
     {
         "id": "a3bd49988b35a09c",
@@ -53556,28 +53999,9 @@
         "y": 800,
         "wires": [
             [
-                "e207bbf1fe0db5d0"
+                "b6717f87cd589899"
             ]
         ]
-    },
-    {
-        "id": "e207bbf1fe0db5d0",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "782b7ed51c843871",
-        "name": "JKBMS/courant",
-        "topic": "JKBMS/courant",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 560,
-        "y": 800,
-        "wires": []
     },
     {
         "id": "d2f2ea2aeebf3462",
@@ -53603,28 +54027,9 @@
         "y": 880,
         "wires": [
             [
-                "9bfe33c41fdebb97"
+                "534a20cc466447e2"
             ]
         ]
-    },
-    {
-        "id": "9bfe33c41fdebb97",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "782b7ed51c843871",
-        "name": "JKBMS/puissance",
-        "topic": "JKBMS/puissance",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 570,
-        "y": 880,
-        "wires": []
     },
     {
         "id": "c97cd06d0ff781db",
@@ -53649,29 +54054,8 @@
         "x": 230,
         "y": 920,
         "wires": [
-            [
-                "6aaf242382768f48"
-            ]
+            []
         ]
-    },
-    {
-        "id": "6aaf242382768f48",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "782b7ed51c843871",
-        "name": "JKBMS/courantraw",
-        "topic": "JKBMS/courantraw",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 570,
-        "y": 920,
-        "wires": []
     },
     {
         "id": "a3ede1b107aef814",
@@ -53697,28 +54081,9 @@
         "y": 960,
         "wires": [
             [
-                "f43641133fd9215a"
+                "d97d2fd67016b326"
             ]
         ]
-    },
-    {
-        "id": "f43641133fd9215a",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "782b7ed51c843871",
-        "name": "JKBMS/cycles",
-        "topic": "JKBMS/cycles",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 560,
-        "y": 960,
-        "wires": []
     },
     {
         "id": "5a1b09e0b27c5215",
@@ -53786,6 +54151,7 @@
         "id": "4c366f7aa104570d",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 1",
         "rules": [
@@ -53846,6 +54212,7 @@
         "id": "c847113908f1b13b",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 2",
         "rules": [
@@ -53874,6 +54241,7 @@
         "id": "b43f0e94762f0b8c",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 3",
         "rules": [
@@ -53902,6 +54270,7 @@
         "id": "86148370f198458b",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 4",
         "rules": [
@@ -53930,6 +54299,7 @@
         "id": "e5ce3aa4b715c560",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 5",
         "rules": [
@@ -53958,6 +54328,7 @@
         "id": "5349357bb0110de0",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 6",
         "rules": [
@@ -53986,6 +54357,7 @@
         "id": "c981c06882920cba",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 7",
         "rules": [
@@ -54014,6 +54386,7 @@
         "id": "141407577c456658",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 8",
         "rules": [
@@ -54042,6 +54415,7 @@
         "id": "637aac26a1048715",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 9",
         "rules": [
@@ -54070,6 +54444,7 @@
         "id": "8b3bb70c23f79670",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 10",
         "rules": [
@@ -54098,6 +54473,7 @@
         "id": "0f7f78d64172ad8c",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 11",
         "rules": [
@@ -54126,6 +54502,7 @@
         "id": "5a920bfd5b6107d4",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 12",
         "rules": [
@@ -54154,6 +54531,7 @@
         "id": "34d464ab96d15d96",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 13",
         "rules": [
@@ -54182,6 +54560,7 @@
         "id": "e6e4995ca0c07228",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 14",
         "rules": [
@@ -54210,6 +54589,7 @@
         "id": "7ab31a2427b72d42",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 15",
         "rules": [
@@ -54238,6 +54618,7 @@
         "id": "f7b487dc03f39ec9",
         "type": "change",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "voltage cellule 16",
         "rules": [
@@ -54266,6 +54647,7 @@
         "id": "e3576b659258db8e",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule1",
         "topic": "JKBMS/tensioncellule1",
@@ -54285,6 +54667,7 @@
         "id": "2e9f312771332561",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule2",
         "topic": "JKBMS/tensioncellule2",
@@ -54304,6 +54687,7 @@
         "id": "a42f6dcb2efead7e",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule3",
         "topic": "JKBMS/tensioncellule3",
@@ -54323,6 +54707,7 @@
         "id": "47ef5b20c44f99d5",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule4",
         "topic": "JKBMS/tensioncellule4",
@@ -54342,6 +54727,7 @@
         "id": "bc3371e5f08cf2a0",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule5",
         "topic": "JKBMS/tensioncellule5",
@@ -54361,6 +54747,7 @@
         "id": "a8cceb956637f28b",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule6",
         "topic": "JKBMS/tensioncellule6",
@@ -54380,6 +54767,7 @@
         "id": "e8ceaa4ae36f2f23",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule7",
         "topic": "JKBMS/tensioncellule7",
@@ -54399,6 +54787,7 @@
         "id": "53f206192925333d",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule8",
         "topic": "JKBMS/tensioncellule8",
@@ -54418,6 +54807,7 @@
         "id": "9acb43442e1552f3",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule9",
         "topic": "JKBMS/tensioncellule9",
@@ -54437,6 +54827,7 @@
         "id": "6aec1e4e8c2ac3e7",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule10",
         "topic": "JKBMS/tensioncellule10",
@@ -54456,6 +54847,7 @@
         "id": "1c6126691acbe6df",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule11",
         "topic": "JKBMS/tensioncellule11",
@@ -54475,6 +54867,7 @@
         "id": "57b378330c3c4b15",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule12",
         "topic": "JKBMS/tensioncellule12",
@@ -54494,6 +54887,7 @@
         "id": "1a5b97011e266389",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule13",
         "topic": "JKBMS/tensioncellule13",
@@ -54513,6 +54907,7 @@
         "id": "30f752bb9ec105fb",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule14",
         "topic": "JKBMS/tensioncellule14",
@@ -54532,6 +54927,7 @@
         "id": "dce48aac7357ea36",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule15",
         "topic": "JKBMS/tensioncellule15",
@@ -54551,6 +54947,7 @@
         "id": "54573a4224c122c8",
         "type": "mqtt out",
         "z": "99c7561be29cc216",
+        "d": true,
         "g": "1481ac7724bca4cc",
         "name": "JKBMS/tensioncellule16",
         "topic": "JKBMS/tensioncellule16",
@@ -54610,28 +55007,9 @@
         "y": 640,
         "wires": [
             [
-                "aa8ecb6177ab1666"
+                "1ec6e01edbae5add"
             ]
         ]
-    },
-    {
-        "id": "aa8ecb6177ab1666",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "782b7ed51c843871",
-        "name": "JKBMS/alarme",
-        "topic": "JKBMS/alarme",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 560,
-        "y": 640,
-        "wires": []
     },
     {
         "id": "153fb0f79419e641",
@@ -54755,82 +55133,6 @@
                 "4424c94cf621854f"
             ]
         ]
-    },
-    {
-        "id": "de27c359f977a52c",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "8afb31fc399a83c1",
-        "name": "JKBMS/statutbatterie",
-        "topic": "JKBMS/statutbatterie",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 850,
-        "y": 1120,
-        "wires": []
-    },
-    {
-        "id": "9bd9ee51e9f4f057",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "8afb31fc399a83c1",
-        "name": "JKBMS/charge",
-        "topic": "JKBMS/charge",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 830,
-        "y": 1200,
-        "wires": []
-    },
-    {
-        "id": "98a06fe4cda4161e",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "8afb31fc399a83c1",
-        "name": "JKBMS/decharge",
-        "topic": "JKBMS/decharge",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 840,
-        "y": 1280,
-        "wires": []
-    },
-    {
-        "id": "582ab068f85ae445",
-        "type": "mqtt out",
-        "z": "99c7561be29cc216",
-        "g": "8afb31fc399a83c1",
-        "name": "JKBMS/balance",
-        "topic": "JKBMS/balance",
-        "qos": "2",
-        "retain": "true",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "215683.1452d97e",
-        "x": 830,
-        "y": 1360,
-        "wires": []
     },
     {
         "id": "4dfbd16d312f82e7",
@@ -54992,7 +55294,7 @@
         "y": 1100,
         "wires": [
             [
-                "de27c359f977a52c"
+                "5bf3b462a1b0ed57"
             ]
         ]
     },
@@ -55020,7 +55322,7 @@
         "y": 1140,
         "wires": [
             [
-                "de27c359f977a52c"
+                "5bf3b462a1b0ed57"
             ]
         ]
     },
@@ -55048,7 +55350,7 @@
         "y": 1180,
         "wires": [
             [
-                "9bd9ee51e9f4f057"
+                "ccb01ace25fc2eb9"
             ]
         ]
     },
@@ -55076,7 +55378,7 @@
         "y": 1220,
         "wires": [
             [
-                "9bd9ee51e9f4f057"
+                "ccb01ace25fc2eb9"
             ]
         ]
     },
@@ -55104,7 +55406,7 @@
         "y": 1260,
         "wires": [
             [
-                "98a06fe4cda4161e"
+                "43dbe93c67733f28"
             ]
         ]
     },
@@ -55132,7 +55434,7 @@
         "y": 1300,
         "wires": [
             [
-                "98a06fe4cda4161e"
+                "43dbe93c67733f28"
             ]
         ]
     },
@@ -55160,7 +55462,7 @@
         "y": 1340,
         "wires": [
             [
-                "582ab068f85ae445"
+                "77783fd665b2d5f0"
             ]
         ]
     },
@@ -55188,7 +55490,7 @@
         "y": 1380,
         "wires": [
             [
-                "582ab068f85ae445"
+                "77783fd665b2d5f0"
             ]
         ]
     },
@@ -55365,7 +55667,7 @@
         "z": "99c7561be29cc216",
         "g": "d99e78c4452ed7e1",
         "name": "debug parse payload",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -55409,7 +55711,7 @@
         "z": "99c7561be29cc216",
         "g": "d99e78c4452ed7e1",
         "name": "debug JKBMS",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -55420,36 +55722,6 @@
         "x": 900,
         "y": 320,
         "wires": []
-    },
-    {
-        "id": "4f91154753a6eed4",
-        "type": "inject",
-        "z": "99c7561be29cc216",
-        "g": "782b7ed51c843871",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "21",
-        "payloadType": "num",
-        "x": 460,
-        "y": 600,
-        "wires": [
-            [
-                "36e1b988a1fbe379"
-            ]
-        ]
     },
     {
         "id": "385c7335939f73ad",
@@ -55479,6 +55751,234 @@
             [
                 "5a9728861aea2322"
             ]
+        ]
+    },
+    {
+        "id": "1ec6e01edbae5add",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "782b7ed51c843871",
+        "name": "jk-codealarme",
+        "entityConfig": "a96db5b73adaaecd",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 560,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8a1a6d6765f43eb3",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "782b7ed51c843871",
+        "name": "jk-tempbatterie1",
+        "entityConfig": "ed45c83eece078d5",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 560,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "af7e1a4713c64efb",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "782b7ed51c843871",
+        "name": "jk-tempbatterie2",
+        "entityConfig": "de2a14228138913f",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 560,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "159becb25eb89e5d",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "782b7ed51c843871",
+        "name": "jk-tension",
+        "entityConfig": "4b7ba803c9598b7c",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 540,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6717f87cd589899",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "782b7ed51c843871",
+        "name": "jk-courant",
+        "entityConfig": "e8fa6e61c4a8b7a0",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 540,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f8704d61f94031fc",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "782b7ed51c843871",
+        "name": "jk-soc",
+        "entityConfig": "e21840a0f0ca901a",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 530,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "534a20cc466447e2",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "782b7ed51c843871",
+        "name": "jk-puissance",
+        "entityConfig": "8d5624e1f62ad6ba",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 550,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d97d2fd67016b326",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "782b7ed51c843871",
+        "name": "jk-cyclebatterie",
+        "entityConfig": "7b1364c130f8e24b",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 560,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5bf3b462a1b0ed57",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "8afb31fc399a83c1",
+        "name": "jk-statutbatterie",
+        "entityConfig": "0f92891215ebd0db",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 840,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ccb01ace25fc2eb9",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "8afb31fc399a83c1",
+        "name": "jk-statutcharge",
+        "entityConfig": "0c5b6b926e16c1df",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 840,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43dbe93c67733f28",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "8afb31fc399a83c1",
+        "name": "jk-statutdecharge",
+        "entityConfig": "a2f5b6de3ad19fd6",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 850,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "77783fd665b2d5f0",
+        "type": "ha-sensor",
+        "z": "99c7561be29cc216",
+        "g": "8afb31fc399a83c1",
+        "name": "jk-statutbalance",
+        "entityConfig": "8cd953cc677d8594",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 840,
+        "y": 1360,
+        "wires": [
+            []
         ]
     },
     {
