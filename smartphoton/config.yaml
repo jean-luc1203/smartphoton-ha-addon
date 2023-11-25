@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 0.0.22
+version: 0.0.23
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -48,9 +48,9 @@ options:
   ssl: false
   certfile: fullchain.pem
   keyfile: privkey.pem
-  system_packages: []
-  npm_packages: []
-  init_commands: []
+  #system_packages: []
+  #npm_packages: []
+  #init_commands: []
 schema:
   onduleur: device(subsystem=tty)
   batterie: device(subsystem=tty)
