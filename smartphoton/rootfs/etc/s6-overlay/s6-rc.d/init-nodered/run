@@ -68,6 +68,7 @@ fi
 #batterie=$(bashio::config 'batterie')
 #onduleur=$(bashio::config 'onduleur')
 
+
 if bashio::fs.file_exists '/config/smartphoton/usbOnduleur'; then
   rm /config/smartphoton/usbOnduleur
 fi
@@ -82,11 +83,19 @@ ONDULEUR=$(bashio::config 'onduleur')
 echo $ONDULEUR >> /config/smartphoton/usbOnduleur
 bashio::log.info "${ONDULEUR}"
 
+#remplaace osb de l'onduleur
+ttyOnduleur="/dev/tty-onduleur"
+sed -i -e "s/$ttyOnduleur/$ONDULEUR/g" /config/smartphoton/flows.json
 
 touch /config/smartphoton/usbBatterie
 BATTERIE=$(bashio::config 'batterie')
 echo $BATTERIE >> /config/smartphoton/usbBatterie
 bashio::log.info "${BATTERIE}"
+
+ttyBartterie="/dev/tty-onduleur"
+sed -i -e "s/$ttyBartterie/$ONDULEUR/g" /config/smartphoton/flows.json
+
+
 
 # Pass in port & SSL settings
 port=$(bashio::addon.port 80)
