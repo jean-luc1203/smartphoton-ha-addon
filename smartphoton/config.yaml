@@ -66,10 +66,10 @@ schema:
   ssl: bool
   certfile: str
   keyfile: str
-  system_packages:
-    - str
-  npm_packages:
-    - str
+  #system_packages:
+  #  - str
+  #npm_packages:
+  #  - str
   init_commands:
     - str
   leave_front_door_open: bool?
