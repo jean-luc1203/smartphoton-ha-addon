@@ -106,7 +106,7 @@ sed -i -e "s@$ttyPylontech@$BATTERIE@g" /config/smartphoton/flows.json >> /confi
 
 #remplace usb de ttyEASUN
 ttyPylontech="/dev/ttyEASUN"
-EASUN=$(bashio::config 'EASUN')
+EASUN=$(bashio::config 'easun')
 echo $ttyEASUN
 echo $EASUN
 
