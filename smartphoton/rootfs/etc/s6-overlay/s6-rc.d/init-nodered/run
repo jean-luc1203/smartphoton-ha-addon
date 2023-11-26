@@ -105,7 +105,7 @@ echo $ONDULEUR
 sed -i -e "s@$ttyPylontech@$BATTERIE@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
 
 #remplace usb de ttyEASUN
-ttyPylontech="/dev/ttyEASUN"
+ttyEASUN="/dev/ttyEASUN"
 EASUN=$(bashio::config 'easun')
 echo $ttyEASUN
 echo $EASUN
