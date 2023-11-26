@@ -104,6 +104,13 @@ echo $ONDULEUR
 
 sed -i -e "s@$ttyPylontech@$BATTERIE@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
 
+#remplace usb de ttyEASUN
+ttyPylontech="/dev/ttyEASUN"
+EASUN=$(bashio::config 'EASUN')
+echo $ttyEASUN
+echo $EASUN
+
+sed -i -e "s@$ttyEASUN@$EASUN@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
 
 
 # Pass in port & SSL settings
