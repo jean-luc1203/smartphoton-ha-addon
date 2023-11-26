@@ -38,7 +38,7 @@ options:
   message: "custom things 2"
   batterie: null
   message: "custom things 3"
-  EASUN: null
+  easun: null
   #credential_secret: ""
   theme: default
   #http_node:
@@ -56,7 +56,7 @@ options:
 schema:
   onduleur: device(subsystem=tty)
   batterie: device(subsystem=tty)
-  EASUN: device(subsystem=tty)
+  easun: device(subsystem=tty)
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   #credential_secret: password
   theme: list(default|aurora|cobalt2|dark|dracula|espresso-libre|midnight-red|monoindustrial|monokai|oceanic-next|oled|solarized-dark|solarized-light|tokyo-night|zenburn)?
