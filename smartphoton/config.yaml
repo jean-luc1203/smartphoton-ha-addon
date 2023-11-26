@@ -37,7 +37,7 @@ options:
   onduleur: null
   message: "custom things 2"
   batterie: null
-  EASUN: "custom things 3"
+  message: "custom things 3"
   EASUN: null
   #credential_secret: ""
   theme: default
