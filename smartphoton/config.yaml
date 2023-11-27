@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 0.0.30
+version: 0.0.31
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -33,12 +33,10 @@ map:
   - share:rw
   - ssl
 options:
-  message: "custom things"
   onduleur: null
-  message: "custom things 2"
+  usbonduleur: null
   batterie: null
-  message: "custom things 3"
-  easun: null
+  usbbatterie: null
   #credential_secret: ""
   theme: default
   #http_node:
@@ -54,9 +52,10 @@ options:
   #npm_packages: []
   #init_commands: []
 schema:
-  onduleur: device(subsystem=tty)
-  batterie: device(subsystem=tty)
-  easun: device(subsystem=tty)
+  onduleur: list(voltronic|easun)?
+  usbonduleur: device(subsystem=tty)?
+  batterie: list(pylontech|jkbms)?
+  usbbatterie: device(subsystem=tty)?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   #credential_secret: password
   theme: list(default|aurora|cobalt2|dark|dracula|espresso-libre|midnight-red|monoindustrial|monokai|oceanic-next|oled|solarized-dark|solarized-light|tokyo-night|zenburn)?

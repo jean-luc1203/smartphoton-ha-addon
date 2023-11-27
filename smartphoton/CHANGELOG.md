@@ -1,3 +1,7 @@
+## 0.0.31
+- Ajout Choix onduleur
+- Ajout Choix Batterie
+
 ## 0.0.30
 - Ajout de port EASUN
 
