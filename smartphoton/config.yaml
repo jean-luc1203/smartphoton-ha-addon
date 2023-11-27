@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 0.0.34
+version: 0.0.35
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -35,11 +35,13 @@ map:
 options:
   onduleur: null
   usbonduleur: null
-  elfinonduleur: none
+  elfinonduleur: false
+  elfinonduleurip: Adresse ip
   elfinonduleurport: 7777
   batterie: null
   usbbatterie: null
-  elfinbatterie: none
+  elfinbatterie: false
+  elfinbatterieip: Adresse ip
   elfinbatterieport: 7777
   #credential_secret: ""
   #theme: default
@@ -58,11 +60,13 @@ options:
 schema:
   onduleur: list(voltronic|easun)
   usbonduleur: device(subsystem=tty)
-  elfinonduleur: str?
+  elfinonduleur: bool
+  elfinonduleurip: str?
   elfinonduleurport: port?
   batterie: list(pylontech|jkbms)?
   usbbatterie: device(subsystem=tty)?
-  elfinbatterie: str?
+  elfinbatterie: bool
+  elfinbatterieip: str?
   elfinbatterieport: port?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   #credential_secret: password
