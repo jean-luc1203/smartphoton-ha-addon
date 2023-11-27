@@ -80,42 +80,73 @@ cp /etc/node-red/flows.json /config/smartphoton/
 ONDULEUR=$(bashio::config 'onduleur')
 usbOnduleur=$(bashio::config 'usbonduleur')
 
-if [ $ONDULEUR == 'voltronic' ]; then
-
-	ttyOnduleur="/dev/tty-onduleur"
-	echo "Configuration de l'onduleur Voltronic sur " $usbOnduleur
-
-	sed -i -e "s@$ttyOnduleur@$usbOnduleur@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
-
-
-elif [ $ONDULEUR == 'easun' ]; then
-
-	ttyEASUN="/dev/ttyEASUN"
-	echo "Configuration de l'onduleur Easun sur " $usbOnduleur
-
-	sed -i -e "s@$ttyEASUN@$usbOnduleur@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
-
+if bashio::fs.file_exists '/config/smartphoton/elfinOnduleur'; then
+	rm /config/smartphoton/elfinOnduleur
 fi
 
+if bashio::config.false 'elfinonduleur'; then
+
+	if [ $ONDULEUR == 'voltronic' ]; then
+
+		ttyOnduleur="/dev/tty-onduleur"
+		echo "Configuration de l'onduleur Voltronic sur " $usbOnduleur
+
+		sed -i -e "s@$ttyOnduleur@$usbOnduleur@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
+
+
+	elif [ $ONDULEUR == 'easun' ]; then
+
+		ttyEASUN="/dev/ttyEASUN"
+		echo "Configuration de l'onduleur Easun sur " $usbOnduleur
+
+		sed -i -e "s@$ttyEASUN@$usbOnduleur@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
+
+	fi
+else
+
+	elfinOnduleurip=$(bashio::config 'elfinonduleurip')
+	elfinOnduleurPort=$(bashio::config 'elfinonduleurport')
+	touch /config/smartphoton/elfinOnduleur
+	echo $elfinOnduleurip
+	echo $elfinOnduleurPort
+	echo $elfinOnduleurip":"$elfinOnduleurPort >> /config/smartphoton/elfinOnduleur
+
+fi
 
 #Choix de la Batterie
 BATTERIE=$(bashio::config 'batterie')
 usbBatterie=$(bashio::config 'usbbatterie')
 
-if [ $BATTERIE == 'pylontech' ]; then
+if bashio::fs.file_exists '/config/smartphoton/elfinBatterie'; then
+	rm /config/smartphoton/elfinBatterie
+fi
 
-	ttyBatterie="/dev/tty-pylontech"
-	echo "Configuration de l'onduleur Pylontech sur " $usbBatterie
+if bashio::config.false 'elfinbatterie'; then
+	if [ $BATTERIE == 'pylontech' ]; then
 
-	sed -i -e "s@$ttyBatterie@$usbBatterie@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
+		ttyBatterie="/dev/tty-pylontech"
+		echo "Configuration de l'onduleur Pylontech sur " $usbBatterie
+
+		sed -i -e "s@$ttyBatterie@$usbBatterie@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
 
 
-elif [ $ONDULEUR == 'jkbms' ]; then
+	elif [ $ONDULEUR == 'jkbms' ]; then
 
-	ttyBatterie="/dev/tty-jkbms"
-	echo "Configuration de la batterie JKBMS sur " $usbBatterie
+		ttyBatterie="/dev/tty-jkbms"
+		echo "Configuration de la batterie JKBMS sur " $usbBatterie
 
-	sed -i -e "s@$ttyBatterie@$usbBatterie@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
+		sed -i -e "s@$ttyBatterie@$usbBatterie@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
+
+	fi
+
+else
+
+	elfinbatterieip=$(bashio::config 'elfinbatterieip')
+	elfinbatteriePort=$(bashio::config 'elfinbatterieport')
+	touch /config/smartphoton/elfinBatterie
+	echo $elfinbatterieip
+	echo $elfinbatteriePort
+	echo $elfinbatterieip":"$elfinbatteriePort >> /config/smartphoton/elfinBatterie
 
 fi
 
