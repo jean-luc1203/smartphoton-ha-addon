@@ -1,3 +1,6 @@
+## 0.0.35
+- Ajout choix elfin création de fichier de configuration
+
 ## 0.0.34
 - Conrrection de la config
 
