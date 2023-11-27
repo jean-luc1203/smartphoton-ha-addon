@@ -65,52 +65,81 @@ else
   
 fi
 
+#Remplace le fichier flows par celui d'origine
+if bashio::fs.file_exists '/config/smartphoton/flows.backup'; then
+      rm /config/smartphoton/flows.backup
+fi
+mv /config/smartphoton/flows.json /config/smartphoton/flows.backup
+cp /etc/node-red/flows.json /config/smartphoton/
+
+
 #batterie=$(bashio::config 'batterie')
 #onduleur=$(bashio::config 'onduleur')
 
-if bashio::fs.file_exists '/config/smartphoton/usbOnduleur'; then
-  rm /config/smartphoton/usbOnduleur
-fi
-
-if bashio::fs.file_exists '/config/smartphoton/usbBatterie'; then
-  rm /config/smartphoton/usbBatterie
-
-fi
-
-touch /config/smartphoton/usbOnduleur
+#Choix de l'onduleur
 ONDULEUR=$(bashio::config 'onduleur')
-echo $ONDULEUR >> /config/smartphoton/usbOnduleur
-bashio::log.info "${ONDULEUR}"
+usbOnduleur=$(bashio::config 'usbonduleur')
+
+if [ $ONDULEUR == 'voltronic' ]; then
+
+	ttyOnduleur="/dev/tty-onduleur"
+	echo "Configuration de l'onduleur Voltronic sur " $usbOnduleur
+
+	sed -i -e "s@$ttyOnduleur@$usbOnduleur@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
 
 
-touch /config/smartphoton/usbBatterie
+elif [ $ONDULEUR == 'easun' ]; then
+
+	ttyEASUN="/dev/ttyEASUN"
+	echo "Configuration de l'onduleur Easun sur " $usbOnduleur
+
+	sed -i -e "s@$ttyEASUN@$usbOnduleur@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
+
+fi
+
+
+#Choix de la Batterie
 BATTERIE=$(bashio::config 'batterie')
-echo $BATTERIE >> /config/smartphoton/usbBatterie
-bashio::log.info "${BATTERIE}"
+usbBatterie=$(bashio::config 'usbbatterie')
+
+if [ $BATTERIE == 'pylontech' ]; then
+
+	ttyBatterie="/dev/tty-pylontech"
+	echo "Configuration de l'onduleur Pylontech sur " $usbBatterie
+
+	sed -i -e "s@$ttyOnduleur@$usbBatterie@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
 
 
-#remplace usb de l'onduleur
-ttyOnduleur="/dev/tty-onduleur"
-echo $ttyOnduleur
-echo $ONDULEUR
+elif [ $ONDULEUR == 'jkbms' ]; then
 
-sed -i -e "s@$ttyOnduleur@$ONDULEUR@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
+	ttyBatterie="/dev/tty-jkbms"
+	echo "Configuration de la batterie JKBMS sur " $usbBatterie
+
+	sed -i -e "s@$ttyBatterie@$usbBatterie@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
+
+fi
+
+#if bashio::fs.file_exists '/config/smartphoton/usbOnduleur'; then
+#  rm /config/smartphoton/usbOnduleur
+#fi
+
+#if bashio::fs.file_exists '/config/smartphoton/usbBatterie'; then
+#  rm /config/smartphoton/usbBatterie
+
+#fi
+
+#touch /config/smartphoton/usbOnduleur
+#ONDULEUR=$(bashio::config 'onduleur')
+#echo $ONDULEUR >> /config/smartphoton/usbOnduleur
+#bashio::log.info "${ONDULEUR}"
 
 
-#remplace usb de l'pylontech
-ttyPylontech="/dev/tty-pylontech"
-echo $ttyPylontech
-echo $ONDULEUR
+#touch /config/smartphoton/usbBatterie
+#BATTERIE=$(bashio::config 'batterie')
+#echo $BATTERIE >> /config/smartphoton/usbBatterie
+#bashio::log.info "${BATTERIE}"
 
-sed -i -e "s@$ttyPylontech@$BATTERIE@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
 
-#remplace usb de ttyEASUN
-ttyEASUN="/dev/ttyEASUN"
-EASUN=$(bashio::config 'easun')
-echo $ttyEASUN
-echo $EASUN
-
-sed -i -e "s@$ttyEASUN@$EASUN@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
 
 
 # Pass in port & SSL settings

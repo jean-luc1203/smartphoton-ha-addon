@@ -1,0 +1,17 @@
+configuration:
+  onduleur:
+    name: Choix de l'onduleur
+    description: >-
+      Choisir votre type d'onduleur.
+  usbonduleur:
+    name: Choix port onduleur
+    description: >-
+      Choix du port usb de l'onduleur.
+  batterie:
+    name: Choix de la Batterie
+    description: >-
+      Choisir le type de batterie.
+  usbbatterie:
+    name: Choix port usb de la batterie
+    description: >-
+      Choisir le port usb de la batterie.
