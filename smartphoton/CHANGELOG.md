@@ -1,3 +1,6 @@
+## 0.0.33
+- Ajout de la configuration elfin (non fonctionnel)
+
 ## 0.0.32
 - Correction du choix Batterie pylontech
 

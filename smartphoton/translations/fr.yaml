@@ -14,4 +14,24 @@ configuration:
   usbbatterie:
     name: Choix port usb de la batterie
     description: >-
-      Choisir le port usb de la batterie.
+      Choisir le port usb de la batterie.  
+  elfinonduleur:
+    name: Adresse elfin Onduleur
+    description: >-
+      Adresse ip du elfin de l'onduleur.
+      - Laisser vide si pas utilisé
+      - Si l'adresse est utilisé la gestion du port usb de l'onduleur ne sera pas pris en compte
+  elfinonduleurport:
+    name: Port elfin Onduleur
+    description: >-
+      Port du elfin de l'onduleur.
+  elfinbatterie:
+    name: Adresse elfin batterie
+    description: >-
+      Adresse ip du elfin de la batterie.
+      - Laisser vide si pas utilisé
+      - Si l'adresse est utilisé la gestion du port usb des batterie ne sera pas pris en compte
+  elfinbatterieport:
+    name: Port elfin batterie
+    description: >-
+      Port du elfin de la batterie.
