@@ -1,8 +1,8 @@
 todo list 
 
 Important
-- A jout elfin a la configuration de l'addon
+- Ajout du elfin à la configuration de l'addon
 
-Correction aa faire 
+Correction à faire 
 - Capacité batterie de l'onduleur
-- Etat des parametre sur la première installation
+- Etat des parametres de l'onduleur sur la première installation
