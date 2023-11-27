@@ -107,7 +107,7 @@ if [ $BATTERIE == 'pylontech' ]; then
 	ttyBatterie="/dev/tty-pylontech"
 	echo "Configuration de l'onduleur Pylontech sur " $usbBatterie
 
-	sed -i -e "s@$ttyOnduleur@$usbBatterie@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
+	sed -i -e "s@$ttyBatterie@$usbBatterie@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
 
 
 elif [ $ONDULEUR == 'jkbms' ]; then
