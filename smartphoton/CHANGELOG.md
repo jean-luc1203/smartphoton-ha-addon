@@ -1,3 +1,6 @@
+## 0.0.34
+- Conrrection de la config
+
 ## 0.0.33
 - Ajout de la configuration elfin (non fonctionnel)
 

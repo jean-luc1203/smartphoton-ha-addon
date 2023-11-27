@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 0.0.33
+version: 0.0.34
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -35,11 +35,11 @@ map:
 options:
   onduleur: null
   usbonduleur: null
-  elfinonduleur: 
+  elfinonduleur: none
   elfinonduleurport: 7777
   batterie: null
   usbbatterie: null
-  elfinbatterie: 
+  elfinbatterie: none
   elfinbatterieport: 7777
   #credential_secret: ""
   #theme: default
@@ -58,11 +58,11 @@ options:
 schema:
   onduleur: list(voltronic|easun)
   usbonduleur: device(subsystem=tty)
-  elfinonduleur: match(^(25[0–5]|2[0–4][0–9]|[01]?[0–9][0–9]?).(25[0–5]|2[0–4][0–9]|[01]?[0–9][0–9]?).(25[0–5]|2[0–4][0–9]|[01]?[0–9][0–9]?).(25[0–5]|2[0–4][0–9]|[01]?[0–9][0–9]?)$)?
+  elfinonduleur: str?
   elfinonduleurport: port?
   batterie: list(pylontech|jkbms)?
   usbbatterie: device(subsystem=tty)?
-  elfinbatterie: match(^(25[0–5]|2[0–4][0–9]|[01]?[0–9][0–9]?).(25[0–5]|2[0–4][0–9]|[01]?[0–9][0–9]?).(25[0–5]|2[0–4][0–9]|[01]?[0–9][0–9]?).(25[0–5]|2[0–4][0–9]|[01]?[0–9][0–9]?)$)?
+  elfinbatterie: str?
   elfinbatterieport: port?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   #credential_secret: password
