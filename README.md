@@ -7,4 +7,4 @@ Visit:  https://smartphoton.fr/
 Forum:  http://domosimple.eu/forum/
 
 The Team 2023:
-JLM / Alexis / Romain / Samuel
+JLM / Alexis / Romain / Khamel / Samuel
