@@ -1589,7 +1589,9 @@
             "e72d4592f4abbaa5"
         ],
         "x": 24,
-        "y": 59
+        "y": 59,
+        "w": 422,
+        "h": 242
     },
     {
         "id": "c71f405bed99f349",
@@ -1647,7 +1649,9 @@
             "9960aebe2e0bb470"
         ],
         "x": 34,
-        "y": 319
+        "y": 319,
+        "w": 1071,
+        "h": 982
     },
     {
         "id": "35c5c4d018d81201",
@@ -1692,7 +1696,9 @@
             "78d36e2e35d04ae5"
         ],
         "x": 34,
-        "y": 2539
+        "y": 2539,
+        "w": 892,
+        "h": 622
     },
     {
         "id": "3150a5c296b9bace",
@@ -2030,7 +2036,9 @@
             "42493aedebb234ec"
         ],
         "x": 34,
-        "y": 1679
+        "y": 1679,
+        "w": 1085,
+        "h": 122
     },
     {
         "id": "e3a949ca98d063ef",
@@ -2049,7 +2057,9 @@
             "a1a1bf5419868332"
         ],
         "x": 204,
-        "y": 1319
+        "y": 1319,
+        "w": 519,
+        "h": 122
     },
     {
         "id": "3558130e1dd9ed59",
@@ -2082,7 +2092,9 @@
             "38d443a626581d28"
         ],
         "x": 34,
-        "y": 1839
+        "y": 1839,
+        "w": 1052,
+        "h": 402
     },
     {
         "id": "e86457e68abf21a0",
@@ -2145,7 +2157,9 @@
             "94b96332303f0cb9"
         ],
         "x": 54,
-        "y": 199
+        "y": 199,
+        "w": 1022,
+        "h": 82
     },
     {
         "id": "604ff53266890fd1",
@@ -13198,10 +13212,10 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": true,
-        "onceDelay": "1",
+        "once": false,
+        "onceDelay": 0.1,
         "topic": "",
-        "x": 120,
+        "x": 110,
         "y": 40,
         "wires": [
             [
@@ -13351,6 +13365,345 @@
             [],
             []
         ]
+    },
+    {
+        "id": "2be0d6af29c90184",
+        "type": "inject",
+        "z": "9107850a2b527725",
+        "name": "A lance au démarage",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 480,
+        "wires": [
+            [
+                "bf0dccb8b68c82f8",
+                "4def16c47d427dfb"
+            ]
+        ]
+    },
+    {
+        "id": "be41e5353f0436f6",
+        "type": "serial control",
+        "z": "9107850a2b527725",
+        "name": "",
+        "serial": "267673c4.e4afdc",
+        "x": 1050,
+        "y": 400,
+        "wires": [
+            [
+                "806b18be05a6963c",
+                "f65b647714cf1195"
+            ]
+        ]
+    },
+    {
+        "id": "58b0a2ed0193f85e",
+        "type": "template",
+        "z": "9107850a2b527725",
+        "name": "Parametres onduleur",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n    \"serialport\": \"{{{usbOnduleur}}}\",\n    \"serialbaud\": 2400,\n    \"databits\": 8,\n    \"parity\": \"none\",\n    \"stopbits\": 1,\n    \"enabled\": true\n}",
+        "output": "json",
+        "x": 820,
+        "y": 400,
+        "wires": [
+            [
+                "be41e5353f0436f6"
+            ]
+        ]
+    },
+    {
+        "id": "5ba0b4b9de6473f2",
+        "type": "serial request",
+        "z": "9107850a2b527725",
+        "name": "",
+        "serial": "267673c4.e4afdc",
+        "x": 1270,
+        "y": 400,
+        "wires": [
+            [
+                "2becb4085a43b68f"
+            ]
+        ]
+    },
+    {
+        "id": "bf0dccb8b68c82f8",
+        "type": "file in",
+        "z": "9107850a2b527725",
+        "name": "Chemin onduleur",
+        "filename": "/config/smartphoton/usbOnduleur",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 350,
+        "y": 400,
+        "wires": [
+            [
+                "a263af8d8aa29439"
+            ]
+        ]
+    },
+    {
+        "id": "a263af8d8aa29439",
+        "type": "change",
+        "z": "9107850a2b527725",
+        "name": "variable usbOnduleur",
+        "rules": [
+            {
+                "t": "set",
+                "p": "usbOnduleur",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 400,
+        "wires": [
+            [
+                "58b0a2ed0193f85e",
+                "8fa4b7a55e7b7f24"
+            ]
+        ]
+    },
+    {
+        "id": "8fa4b7a55e7b7f24",
+        "type": "debug",
+        "z": "9107850a2b527725",
+        "name": "debug 88",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "usbOnduleur",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "2becb4085a43b68f",
+        "type": "debug",
+        "z": "9107850a2b527725",
+        "name": "debug 90",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "9c10b35c716aab6c",
+        "type": "template",
+        "z": "9107850a2b527725",
+        "name": "Parametre Batterie",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n    \"serialport\": \"{{{usbBatterie}}}\",\n    \"serialbaud\": 115200,\n    \"databits\": 8,\n    \"parity\": \"none\",\n    \"stopbits\": 1,\n    \"enabled\": true\n}",
+        "output": "json",
+        "x": 810,
+        "y": 560,
+        "wires": [
+            [
+                "d7e7df6502115c4f"
+            ]
+        ]
+    },
+    {
+        "id": "4def16c47d427dfb",
+        "type": "file in",
+        "z": "9107850a2b527725",
+        "name": "chemin batterie",
+        "filename": "/config/smartphoton/usbBatterie",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 340,
+        "y": 560,
+        "wires": [
+            [
+                "6adda2abdcc8def5"
+            ]
+        ]
+    },
+    {
+        "id": "6adda2abdcc8def5",
+        "type": "change",
+        "z": "9107850a2b527725",
+        "name": "Variable usbBatterie",
+        "rules": [
+            {
+                "t": "set",
+                "p": "usbBatterie",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 560,
+        "wires": [
+            [
+                "9c10b35c716aab6c",
+                "e1e60398173ac782"
+            ]
+        ]
+    },
+    {
+        "id": "e1e60398173ac782",
+        "type": "debug",
+        "z": "9107850a2b527725",
+        "name": "debug 91",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "usbOnduleur",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "d7e7df6502115c4f",
+        "type": "serial control",
+        "z": "9107850a2b527725",
+        "name": "",
+        "serial": "233d839231da5a67",
+        "x": 1050,
+        "y": 560,
+        "wires": [
+            [
+                "da58cc6cd50e6f8f"
+            ]
+        ]
+    },
+    {
+        "id": "64d3e1be4880360c",
+        "type": "serial request",
+        "z": "9107850a2b527725",
+        "name": "",
+        "serial": "267673c4.e4afdc",
+        "x": 1270,
+        "y": 560,
+        "wires": [
+            [
+                "2becb4085a43b68f"
+            ]
+        ]
+    },
+    {
+        "id": "5b74fb78c0efd4ee",
+        "type": "link in",
+        "z": "9107850a2b527725",
+        "name": "requete onduleur",
+        "links": [
+            "eddb47d773f3c8cb"
+        ],
+        "x": 905,
+        "y": 260,
+        "wires": [
+            [
+                "be41e5353f0436f6"
+            ]
+        ]
+    },
+    {
+        "id": "806b18be05a6963c",
+        "type": "link out",
+        "z": "9107850a2b527725",
+        "name": "sortie avant le serial ",
+        "mode": "link",
+        "links": [],
+        "x": 1195,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "1a66a08cd109c371",
+        "type": "link in",
+        "z": "9107850a2b527725",
+        "name": "requete batterie",
+        "links": [],
+        "x": 875,
+        "y": 700,
+        "wires": [
+            [
+                "d7e7df6502115c4f"
+            ]
+        ]
+    },
+    {
+        "id": "da58cc6cd50e6f8f",
+        "type": "link out",
+        "z": "9107850a2b527725",
+        "name": "sortie avant le serial pour les batterie",
+        "mode": "link",
+        "links": [],
+        "x": 1245,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "f65b647714cf1195",
+        "type": "debug",
+        "z": "9107850a2b527725",
+        "name": "debug 92",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1250,
+        "y": 340,
+        "wires": []
     },
     {
         "id": "260174ed53e3d651",
