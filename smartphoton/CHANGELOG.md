@@ -1,3 +1,6 @@
+## 0.0.32
+- Correction du choix Batterie pylontech
+
 ## 0.0.31
 - Ajout Choix onduleur
 - Ajout Choix Batterie
