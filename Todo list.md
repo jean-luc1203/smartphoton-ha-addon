@@ -1,4 +1,4 @@
-# todo list 
+# To-Do List 
 
 ## Important
 - Ajout du elfin à la configuration de l'addon
