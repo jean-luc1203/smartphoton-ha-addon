@@ -43,20 +43,9 @@ options:
   elfinbatterie: false
   elfinbatterieip: Adresse ip
   elfinbatterieport: 7777
-  #credential_secret: ""
-  #theme: default
-  #http_node:
-  #  username: ""
-  #  password: ""
-  #http_static:
-  #  username: ""
-  #  password: ""
   ssl: false
   certfile: fullchain.pem
   keyfile: privkey.pem
-  #system_packages: []
-  #npm_packages: []
-  #init_commands: []
 schema:
   onduleur: list(voltronic|easun)
   usbonduleur: device(subsystem=tty)
@@ -69,23 +58,11 @@ schema:
   elfinbatterieip: str?
   elfinbatterieport: port?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  #credential_secret: password
-  #theme: list(default|aurora|cobalt2|dark|dracula|espresso-libre|midnight-red|monoindustrial|monokai|oceanic-next|oled|solarized-dark|solarized-light|tokyo-night|zenburn)?
-  #http_node:
-  #  username: str
-  #  password: password
-  #http_static:
-  # username: str
-  #  password: password
   ssl: bool
   certfile: str
   keyfile: str
-  #system_packages:
-  #  - str
-  #npm_packages:
-  #  - str
-  #init_commands:
-  #  - str
+  not_need: "str?"
   leave_front_door_open: bool?
   safe_mode: bool?
   max_old_space_size: int?
+
