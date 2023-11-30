@@ -6,6 +6,7 @@
 - Récupération des informations pylontech (ne fonction pas pas pour le moment)
 - Désactivé les USBs quand selection elfin
 -  ~~Ajout de la config elfin dans un fichier~~
+-  
 
 ## Correction à faire 
 - Capacité batterie de l'onduleur
