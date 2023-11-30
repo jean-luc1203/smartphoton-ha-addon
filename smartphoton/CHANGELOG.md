@@ -1,3 +1,6 @@
+## 0.0.36
+- test jean luc
+
 ## 0.0.35
 - Ajout choix elfin création de fichier de configuration
 

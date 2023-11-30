@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 0.0.35
+version: 0.0.36
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -33,22 +33,23 @@ map:
   - share:rw
   - ssl
 options:
-  onduleur: null
-  usbonduleur: null
+  onduleur: 
+  usbonduleur: 
   elfinonduleur: false
   elfinonduleurip: Adresse ip
   elfinonduleurport: 7777
-  batterie: null
-  usbbatterie: null
+  batterie: 
+  usbbatterie: 
   elfinbatterie: false
   elfinbatterieip: Adresse ip
   elfinbatterieport: 7777
+  mqtt: Adresse du serveur
   ssl: false
   certfile: fullchain.pem
   keyfile: privkey.pem
 schema:
   onduleur: list(voltronic|easun)
-  usbonduleur: device(subsystem=tty)
+  usbonduleur: device(subsystem=tty)?
   elfinonduleur: bool
   elfinonduleurip: str?
   elfinonduleurport: port?
@@ -57,6 +58,7 @@ schema:
   elfinbatterie: bool
   elfinbatterieip: str?
   elfinbatterieport: port?
+  mqtt: str?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   ssl: bool
   certfile: str
@@ -65,4 +67,3 @@ schema:
   leave_front_door_open: bool?
   safe_mode: bool?
   max_old_space_size: int?
-
