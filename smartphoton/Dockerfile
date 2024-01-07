@@ -26,7 +26,7 @@ RUN \
         nginx=1.24.0-r7 \
         nodejs=18.18.2-r0 \
         npm=9.6.6-r0 \
-        openssh-client=9.3_p2-r0 \
+        openssh-client=9.3_p2-r1 \
         patch=2.7.6-r10 \
     \
     && npm install \
@@ -57,7 +57,7 @@ COPY rootfs /
 
 # Health check
 HEALTHCHECK --start-period=10m \
-    CMD curl --fail http://127.0.0.1:46836 || exit 1
+    CMD curl --fail http://127.0.0.1:1890 || exit 1
 
 # Build arguments
 ARG BUILD_ARCH

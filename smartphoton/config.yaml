@@ -1,13 +1,12 @@
 ---
 name: Smartphoton
-version: 0.0.36
+version: 1.0.0
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
 ingress: false
 #ingress_port: 1890
 ingress_stream: false
-webui: http://[HOST]:[PORT:1890]
 panel_icon: mdi:sitemap
 init: false
 homeassistant: 2021.3.0
@@ -34,31 +33,98 @@ map:
   - ssl
 options:
   onduleur: 
-  usbonduleur: 
+  usbonduleur: false
   elfinonduleur: false
   elfinonduleurip: Adresse ip
   elfinonduleurport: 7777
+  nameEntities:
+    nameOnduleur: "Onduleur"
+    namePV: "PV Puissance (Watt)"
+    nameBatt_charge: "Batt Charge (Watt)"
+    nameBatt_batt_decharge: "Batt deharge (Watt)"
+    nameBatt_batt_chargedecharge: "Batt Charge et Decharge (watt)"
+    nameConso_maison: "Conso Maison (Watt)"
+    nameGridTension: "Grid Tension (Volt)"
+    nameBattTensiont: "Batterie Voltage (Volt)"
+    namePvTensiont: "PV Voltage (Volt)"
+    nameOnduleurTension: "Onduleur Tension (Volt)"
+    nameDataFrequency: "Data Frequency (Hz)"
+    nameOnduleurFrequency: "Onduleur-Frequency (Hz)"
+    namePvIntensite: "Pv Intensite (Amp)"
+    nameBattChargeIntensite: "Batt Charge Intensite (Amp)"
+    nameBattDechargeIntensite: "Batt Decharge Intensite (Amp)"
+    nameBattCapacite: "Batterie Capacité"
+    nameMode: "Mode Solaire"
+    nameTemp: "Temperature (°)"
+    nameParam01: "Paramètre 01"
+    nameParam02: "Paramètre 02"
+    nameParam05: "Paramètre 05"
+    nameParam11: "Paramètre 11"
+    nameParam12: "Paramètre 12"
+    nameParam13: "Paramètre 13"
+    nameParam16: "Paramètre 16"
+    nameParam27: "Paramètre 27"
+    nameParam29: "Paramètre 29"
   batterie: 
-  usbbatterie: 
+  battTension: 
+  usbbatterie: false
   elfinbatterie: false
   elfinbatterieip: Adresse ip
   elfinbatterieport: 7777
-  mqtt: Adresse du serveur
+  mqtt:
+    mqttadresse: ""
+    mqttport: ""
+    mqttuser: ""
+    mqttpass: ""
   ssl: false
   certfile: fullchain.pem
   keyfile: privkey.pem
 schema:
-  onduleur: list(voltronic|easun)
-  usbonduleur: device(subsystem=tty)?
+  #onduleur: list(voltronic|easun)
+  onduleur: list(voltronic)
+  usbonduleur: str
   elfinonduleur: bool
   elfinonduleurip: str?
   elfinonduleurport: port?
-  batterie: list(pylontech|jkbms)?
-  usbbatterie: device(subsystem=tty)?
+  nameEntities:
+    nameOnduleur: str
+    namePV: str
+    nameBatt_charge: str
+    nameBatt_batt_decharge: str
+    nameBatt_batt_chargedecharge: str
+    nameConso_maison: str
+    nameGridTension: str
+    nameBattTensiont: str
+    namePvTensiont: str
+    nameOnduleurTension: str
+    nameDataFrequency: str
+    nameOnduleurFrequency: str
+    namePvIntensite: str
+    nameBattChargeIntensite: str
+    nameBattDechargeIntensite: str
+    nameBattCapacite: str
+    nameMode: str
+    nameTemp: str
+    nameParam01: str
+    nameParam02: str
+    nameParam05: str
+    nameParam11: str
+    nameParam12: str
+    nameParam13: str
+    nameParam16: str
+    nameParam27: str
+    nameParam29: str
+  batterie: list(pylontech)?
+  battTension: list(12|24|48)?
+  usbbatterie: str
   elfinbatterie: bool
   elfinbatterieip: str?
   elfinbatterieport: port?
-  mqtt: str?
+  mqtt:
+    mqttadresse: str?
+    mqttport: port?
+    mqttuser: str?
+    mqttpass: password?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   ssl: bool
   certfile: str

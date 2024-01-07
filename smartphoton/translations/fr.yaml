@@ -6,7 +6,11 @@ configuration:
   usbonduleur:
     name: Choix port onduleur
     description: >-
-      Choix du port usb de l'onduleur.
+      Choix du port usb de l'onduleur. ("false" pour ne pas l'utiliser)
+  nameEntities:
+    name: Nom des entités
+    description: >-
+      Choisir des noms personnalisés
   batterie:
     name: Choix de la Batterie
     description: >-
@@ -14,7 +18,7 @@ configuration:
   usbbatterie:
     name: Choix port usb de la batterie
     description: >-
-      Choisir le port usb de la batterie.  
+      Choisir le port usb de la batterie. ("false" pour ne pas l'utiliser)
   elfinonduleur:
     name: Activer le elfin
     description: >-
