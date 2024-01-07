@@ -1,0 +1,6 @@
+{
+  "name": "Smartphoton HA Add-ons",
+  "udev": true,
+  "url": "https://github.com/jean-luc1203/smartphoton-ha-addon/",
+  "maintainer": "Smartphoton"
+}
