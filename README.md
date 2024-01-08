@@ -1,12 +1,12 @@
-﻿**Smartphoton-HA Add-on v1.0**
+﻿**Smartphoton-HA Add-on v1.0  (english)**
 
 This add-on manages your hybrid inverter on a Voltronic base.
 This add-on also manages your Pylontech batteries.
 
 Communication with the inverter and/or batteries is either :
 
-`    `- USB ↔ RS232
-`    `- Via a TCP/IP gateway ↔ RS232 type Elfin [EE10](http://www.hi-flying.com/elfin-ee10-elfin-ee11) or [EW10](http://www.hi-flying.com/elfin-ew10-elfin-ew11)(a)
+- USB ↔ RS232
+- Via a TCP/IP gateway ↔ RS232 type Elfin [EE10](http://www.hi-flying.com/elfin-ee10-elfin-ee11) or [EW10](http://www.hi-flying.com/elfin-ew10-elfin-ew11)(a)
 
 The add-on engine is written in Nodered V3
 
@@ -19,8 +19,7 @@ For example: EASUN, Growatt, SofarSolar, etc.
 
 The smartphoton team is made up of : Jean-luc / Alexis / Romain / Khamel / Samuel 
 
-
-**Smartphoton-HA Add-on v1.0**
+**Smartphoton-HA Add-on v1.0 (français)**
 
 Cet add-on sert à gérer votre onduleur hybride sur une base Voltronic.
 
