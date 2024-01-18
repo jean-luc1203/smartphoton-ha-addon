@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.1.0
+version: 1.1.1
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -114,7 +114,7 @@ schema:
     nameParam16: str
     nameParam27: str
     nameParam29: str
-  batterie: list(pylontech)?
+  batterie: list(aucune|pylontech)?
   battTension: list(12|24|48)?
   usbbatterie: str
   elfinbatterie: bool
