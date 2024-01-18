@@ -1,4 +1,4 @@
-﻿# Smartphoton-HA Add-on v1.0  (english)
+﻿# Smartphoton-HA Add-on  (english)
 
 This add-on manages your hybrid inverter on a Voltronic base.
 This add-on also manages your Pylontech batteries.
@@ -17,7 +17,7 @@ For example: EASUN, Growatt, SofarSolar, etc.
 *The smartphoton team is made up of : Jean-luc / Alexis / Romain / Khamel / Samuel* 
 
 
-# Smartphoton-HA Add-on v1.0 (français)
+# Smartphoton-HA Add-on (français)
 
 Cet add-on sert à gérer votre onduleur hybride sur une base Voltronic.
 Cet add-on gère aussi votre parc de batteries Pylontech
