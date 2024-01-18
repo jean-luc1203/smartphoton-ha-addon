@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.1.1
+version: 1.1.2
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -40,6 +40,7 @@ options:
   nameEntities:
     nameOnduleur: "Onduleur"
     namePV: "PV Puissance (Watt)"
+    namePV2: "PV2 Puissance (Watt)"
     nameBatt_charge: "Batt Charge (Watt)"
     nameBatt_batt_decharge: "Batt deharge (Watt)"
     nameBatt_batt_chargedecharge: "Batt Charge et Decharge (watt)"
@@ -47,10 +48,12 @@ options:
     nameGridTension: "Grid Tension (Volt)"
     nameBattTensiont: "Batterie Voltage (Volt)"
     namePvTensiont: "PV Voltage (Volt)"
+    namePv2Tensiont: "PV2 Voltage (Volt)"
     nameOnduleurTension: "Onduleur Tension (Volt)"
     nameDataFrequency: "Data Frequency (Hz)"
     nameOnduleurFrequency: "Onduleur-Frequency (Hz)"
     namePvIntensite: "Pv Intensite (Amp)"
+    namePv2Intensite: "Pv2 Intensite (Amp)"
     nameBattChargeIntensite: "Batt Charge Intensite (Amp)"
     nameBattDechargeIntensite: "Batt Decharge Intensite (Amp)"
     nameBattCapacite: "Batterie Capacité"
@@ -89,6 +92,7 @@ schema:
   nameEntities:
     nameOnduleur: str
     namePV: str
+    namePV2: str
     nameBatt_charge: str
     nameBatt_batt_decharge: str
     nameBatt_batt_chargedecharge: str
@@ -96,10 +100,12 @@ schema:
     nameGridTension: str
     nameBattTensiont: str
     namePvTensiont: str
+    namePv2Tensiont: str
     nameOnduleurTension: str
     nameDataFrequency: str
     nameOnduleurFrequency: str
     namePvIntensite: str
+    namePv2Intensite: str
     nameBattChargeIntensite: str
     nameBattDechargeIntensite: str
     nameBattCapacite: str
