@@ -1,3 +1,6 @@
+## 1.1.1
+- Ajout de l'option Aucune sur le choix des batteries
+
 ## 1.1.0
 - Mise à jour de certaines aplications
 - Mise à jour alpine v3.19
