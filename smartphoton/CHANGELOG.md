@@ -1,3 +1,6 @@
+## 1.1.2
+- Ajout deuxième entrée mppt
+
 ## 1.1.1
 - Ajout de l'option Aucune sur le choix des batteries
 
