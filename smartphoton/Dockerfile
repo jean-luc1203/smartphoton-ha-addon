@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:0.1.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:0.1.2
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -65,6 +65,8 @@ ARG BUILD_NAME
 ARG BUILD_REF
 ARG BUILD_REPOSITORY
 ARG BUILD_VERSION
+
+ENV VERSION ${BUILD_VERSION}
 
 # Labels
 LABEL \

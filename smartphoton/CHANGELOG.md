@@ -1,3 +1,9 @@
+## 1.1.3
+- Mise à jour base-nodejs en v0.1.2
+- Mise à jour addon node red en v17.0.3
+- Ajout debug vision
+- Ajout Version sur les appareils mqtt
+
 ## 1.1.2
 - Ajout deuxième entrée mppt
 
