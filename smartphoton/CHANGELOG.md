@@ -1,3 +1,8 @@
+## 1.1.4
+- Correction sur la création des sensors mppt
+- Correction sur la création du sensor nombre de batterie
+- Correction parametre 2 pour onduleur parallèle
+
 ## 1.1.3
 - Mise à jour base-nodejs en v0.1.2
 - Mise à jour addon node red en v17.0.3
