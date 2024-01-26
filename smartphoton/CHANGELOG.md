@@ -1,3 +1,10 @@
+## 1.2.0
+- Ajout Nombre d'onduleur
+- info sur les onduleurs secondaires
+
+## 1.1.5
+- Correction du mode onduleur
+
 ## 1.1.4
 - Correction sur la création des sensors mppt
 - Correction sur la création du sensor nombre de batterie
