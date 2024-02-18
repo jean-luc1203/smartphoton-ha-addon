@@ -1,4 +1,6 @@
 ## 1.3.3 /!\ Attention voir forum (Version 1.3) avant installation /!\ 
+Voir ici: https://domosimple.eu/forum/thread-691.html
+                
 - mise à jour node-red-contrib-home-assistant-websocket to v0.63.0
 
 ## 1.3.2  
