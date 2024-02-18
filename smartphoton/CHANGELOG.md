@@ -1,3 +1,36 @@
+## 1.3.3 /!\ Attention voir forum (Version 1.3) avant installation /!\ 
+- mise à jour node-red-contrib-home-assistant-websocket to v0.63.0
+
+## 1.3.2  
+- mise à jour node-red-contrib-modbus to v5.29.0
+- Mise a jour to v3.1.5
+
+
+## 1.3.1
+- Nouvelle configuration des onduleurs
+- Nouvelle gestion des serials
+- Nouvelle gestion des IPs (elfin)
+- Nouvelle gestion des onduleurs parallèles
+- Simplification elfin
+- Mise en place des multi USBs
+- Suppression du nombre d'onduleur via le parallèle
+- Ajout de la tension batterie par onduleur
+- Possibilité d'activer ou non la récupération des onduleurs parallèles (option multionduleur)
+- Ajout de l'appareil mqtt smartphoton (Pour de futurs options)
+- Correction parametre 11
+
+## 1.3
+- Prise en charge de plusieurs USBs
+
+## 1.2.1
+- Mise à jour base-nodejs v0.1.3
+- Mise à jour alpine_3_19/nginx to v1.24.0-r15
+
+## 1.2.0
+- Ajout conso maison onduleur parallèle
+- Ajout serial onduleur parallèle
+- Correction sur le paramètre onduleur non parallèle
+
 ## 1.2.0
 - Ajout Nombre d'onduleur
 - info sur les onduleurs secondaires

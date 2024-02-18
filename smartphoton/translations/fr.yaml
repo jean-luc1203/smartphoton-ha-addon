@@ -3,10 +3,14 @@ configuration:
     name: Choix de l'onduleur
     description: >-
       Choisir votre type d'onduleur.
-  usbonduleur:
-    name: Choix port onduleur
+  listonduleur:
+    name: Liste des onduleurs
     description: >-
-      Choix du port usb de l'onduleur. ("false" pour ne pas l'utiliser)
+      Choix du port usb ou ip de l'onduleur. ("false" pour ne pas l'utiliser) 
+  listbatterie:
+    name: Liste des Batteries
+    description: >-
+      Choix du port usb ou ip de la batterie. ("false" pour ne pas l'utiliser)
   nameEntities:
     name: Nom des entités
     description: >-

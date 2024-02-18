@@ -13,6 +13,7 @@ Smartphoton est un addon de gestion d'onduleurs et de batteries
 * [x] 24 volt (non testé)
 * [ ] 12 volt
 
+<br /><br />
 ---
 ## Installation
 ---
@@ -26,109 +27,108 @@ comparaison avec l’installation de tout autre module complémentaire Home Assi
 1. Démarrez le module complémentaire "Smartphoton".
 1. Vérifiez les journaux de "Smartphoton" pour voir si tout s'est bien passé.
 
----
-## Configuration
----
-
-**Note**: _N'oubliez pas de redémarrer le module complémentaire lorsque la configuration est modifiée.._
-
-Example add-on configuration:
-
-```yaml
-onduleur: voltronic
-usbonduleur: /dev/serial/by-id/usb-Prolific_Technology_Inc._ATEN_USB_to_Serial_Bridge_EQDPb115818-if00-port0
-elfinonduleur: false
-elfinonduleurip: Adresse ip
-elfinonduleurport: 7777
-nameEntities:
-  nameOnduleur: Onduleur
-  namePV: PV Puissance (Watt)
-  nameBatt_charge: Batt Charge (Watt)
-  nameBatt_batt_decharge: Batt deharge (Watt)
-  nameBatt_batt_chargedecharge: Batt Charge et Decharge (watt)
-  nameConso_maison: Conso Maison (Watt)
-  nameGridTension: Grid Tension (Volt)
-  nameBattTensiont: Batterie Voltage (Volt)
-  namePvTensiont: PV Voltage (Volt)
-  nameOnduleurTension: Onduleur Tension (Volt)
-  nameDataFrequency: Data Frequency (Hz)
-  nameOnduleurFrequency: Onduleur-Frequency (Hz)
-  namePvIntensite: Pv Intensite (Amp)
-  nameBattChargeIntensite: Batt Charge Intensite (Amp)
-  nameBattDechargeIntensite: Batt Decharge Intensite (Amp)
-  nameBattCapacite: Batterie Capacité
-  nameMode: Mode Solaire
-  nameTemp: Temperature (°)
-  nameParam01: Paramètre 01
-  nameParam02: Paramètre 02
-  nameParam05: Paramètre 05
-  nameParam11: Paramètre 11
-  nameParam12: Paramètre 12
-  nameParam13: Paramètre 13
-  nameParam16: Paramètre 16
-  nameParam27: Paramètre 27
-  nameParam29: Paramètre 29
-batterie: pylontech
-battTension: "48"
-usbbatterie: false
-elfinbatterie: false
-elfinbatterieip: Adresse ip
-elfinbatterieport: 7777
-mqtt:
-  mqttadresse: 192.168.1.200
-  mqttport: "1883"
-  mqttuser: test
-  mqttpass: test
-ssl: false
-certfile: fullchain.pem
-keyfile: privkey.pem
-```
-
-**Note**: _Ceci n'est qu'un exemple, ne le copiez pas et ne le collez pas ! voir les détails de configuration en dessous_
-
+<br /><br />
 ---
 ## Onduleur
 ---  
-
-### Option: `Choix de l'onduleur ou onduleur`
-Choisir le type d'onduleur (d'autres seront ajoutés par la suite).
    
-  
-### Option: `Choix port onduleur ou usbonduleur`
+
+### Option: `Choix port Liste Onduleur ou listonduleur`
 Choisir du port usb de d'onduleur. ("false" pour ne pas l'utiliser)
+Chemin : ip ou serial. (<ip>:<port>) ou /dev/serial/by-id/<nom du serial>
+Type : ip ou serial
+Onduleur : choix de la batterie. false ou voltronic
+multionduleur : Utilisation des qpgs.
+battTension : Tension des batterie branché sur l'onduleur
 
-### Option: `Activer le elfin ou elfinonduleur`
-Si vous utilisé un elfin : vrai ou faux
 
-### Option: `Elfin`
-**Activer le elfin ou elfinonduleur** Si vous utilisé un elfin : vrai ou faux
+<br /><br />
+**exemple**
+```yaml
+- chemin: "false"
+```
+ou pour une communication avec onduleur en usb
 
-**Adresse elfin onduleur ou elfinonduleurip** Si vrai adresse ip du elfin de votre onduleur 
+```yaml
+- chemin: /dev/serial/by-id/usb-Prolific_Technology_Inc._ATEN_USB_to_Serial_Bridge_EQDPb115818-if00-port0
+  type: serial
+  onduleur: voltronic
+  battTension: 48
+```
 
-**Port elfin onduleur ou elfinonduleurip** Si vrai port du elfin de votre onduleur 
+ou pour une communication avec onduleur en ip ou elfin
 
-### Option: `Nom des entités ou nameEntities`
+```yaml
+- chemin: 192.168.1.252:8888
+  type: ip
+  onduleur: voltronic
+  battTension: 48
+```
+
+<br /><br />
+**Options disponibles**
+
+| Nom | valeur par défaut | obligatoire | options |
+|:--- |:---:|:---:|:--- |
+| chemin | false | oui | Adresse ip, chemin serial|
+| type | serial | oui | ip, serial |
+| onduleur | voltronic | oui | voltronic |
+| multionduleur | true | non | true, false |
+| battTension | 48 | non | 48, 24, 12 |
+
+
+
+<br /><br />
+---
+## Nom des entités ou nameEntities
+---
+
 Permet de personnalisé les noms des entités onduleur.
 
+<br /><br />
 ---
 ## Batterie
 ---
-### Option: `Choix de la Batterie ou batterie`
-Choisir le type de batterie (d'autres seront ajoutés par la suite).
 
-### Option: `Tension batteries ou battTension`
-Tension de vos batteries (Les options 12 et 24 ne sont pas entièrement fonctionnel)
+### Option: `Choix port Liste batterie ou listbatterie`
+Choisir du port usb de la batterie. ("false" pour ne pas l'utiliser)
+Chemin : ip ou serial. (<ip>:<port>) ou /dev/serial/by-id/<nom du serial>
+Type : ip ou serial
+Batterie : choix de la batterie. false ou pylontech
 
-### Option: `Choix port usb de la batterie ou usbbatterie`
-Choisir du port usb de la batterie ("false" pour ne pas l'utiliser)
 
-### Option: `Elfin`
-**Activer le elfin ou elfinbatterie** Si vous utilisé un elfin : vrai ou faux
+<br /><br />
+**exemple**
+```yaml
+- chemin: "false"
+```
+ou pour une communication avec batterie en usb
 
-**Adresse elfin onduleur ou elfinbatterieip** Si vrai adresse ip du elfin de votre batterie
+```yaml
+- chemin: /dev/serial/by-id/usb-Prolific_Technology_Inc._ATEN_USB_to_Serial_Bridge_EQDPb115818-if00-port0
+  type: serial
+  batterie: pylontech
+```
 
-**Port elfin onduleur ou elfinbatterieport** Si vrai port du elfin de votre batterie
+ou pour une communication avec batterie en ip ou elfin
 
+```yaml
+- chemin: 192.168.1.252:8888
+  type: ip
+  batterie: pylontech
+```
+
+<br /><br />
+**Options disponibles**
+
+| Nom | valeur par défaut | obligatoire | options |
+|:--- |:---:|:---:|:--- |
+| chemin | false | oui | Adresse ip, chemin serial|
+| type | serial | oui | ip, serial |
+| batterie | pylontech | oui | false,pylontech |
+
+
+<br /><br />
 ---
 ## MQTT (obligatoire)
 ---
@@ -144,7 +144,7 @@ Il sera ensuite indispenssable d'ajouter intégration mqtt (voir doc mqtt)
 **mqttuser** utilisateur de connexion 
 
 **mqttpass** mot de passe de connexion
-
+<br /><br />
 ---
 ## Autres options
 ---
