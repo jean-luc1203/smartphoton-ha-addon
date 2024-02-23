@@ -1,3 +1,6 @@
+## 1.3.5
+- Correction Paramètre 11 et 2 sur les onduleurs non parallèles
+
 ## 1.3.4
 - Force les mises à jour des capteurs mqtt
 
