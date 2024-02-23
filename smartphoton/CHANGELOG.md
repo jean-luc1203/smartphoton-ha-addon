@@ -1,12 +1,13 @@
+## 1.3.4
+- Force les mises à jour des capteurs mqtt
+
 ## 1.3.3 /!\ Attention voir forum (Version 1.3) avant installation /!\ 
 Voir ici: https://domosimple.eu/forum/thread-691.html
-                
 - mise à jour node-red-contrib-home-assistant-websocket to v0.63.0
 
 ## 1.3.2  
 - mise à jour node-red-contrib-modbus to v5.29.0
 - Mise a jour to v3.1.5
-
 
 ## 1.3.1
 - Nouvelle configuration des onduleurs

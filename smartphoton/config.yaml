@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.3.3
+version: 1.3.4
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -38,6 +38,15 @@ options:
       onduleur: voltronic
       multionduleur: true
       battTension: 48
+  listbatterie:
+    - chemin: "false"
+      type: serial
+      batterie: pylontech
+  mqtt:
+    mqttadresse: ""
+    mqttport: ""
+    mqttuser: ""
+    mqttpass: ""
   nameEntities:
     nameOnduleur: "Onduleur"
     namePV: "PV Puissance (Watt)"
@@ -69,15 +78,6 @@ options:
     nameParam16: "Paramètre 16"
     nameParam27: "Paramètre 27"
     nameParam29: "Paramètre 29"
-  listbatterie:
-    - chemin: "false"
-      type: serial
-      batterie: pylontech
-  mqtt:
-    mqttadresse: ""
-    mqttport: ""
-    mqttuser: ""
-    mqttpass: ""
   ssl: false
   certfile: fullchain.pem
   keyfile: privkey.pem
@@ -89,6 +89,15 @@ schema:
       onduleur: list(false|voltronic|easun)?
       multionduleur: bool?
       battTension: list(48|24|12)?
+  listbatterie:
+    - chemin: "str"
+      type: list(false|ip|serial)?
+      batterie: list(false|pylontech)?
+  mqtt:
+    mqttadresse: str?
+    mqttport: port?
+    mqttuser: str?
+    mqttpass: password?
   nameEntities:
     nameOnduleur: str
     namePV: str
@@ -120,15 +129,6 @@ schema:
     nameParam16: str
     nameParam27: str
     nameParam29: str
-  listbatterie:
-    - chemin: "str"
-      type: list(false|ip|serial)?
-      batterie: list(false|pylontech)?
-  mqtt:
-    mqttadresse: str?
-    mqttport: port?
-    mqttuser: str?
-    mqttpass: password?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   ssl: bool
   certfile: str

@@ -27,6 +27,8 @@ comparaison avec l’installation de tout autre module complémentaire Home Assi
 1. Démarrez le module complémentaire "Smartphoton".
 1. Vérifiez les journaux de "Smartphoton" pour voir si tout s'est bien passé.
 
+Vous pouvez vous aider du [Smartphoton Configuration][addon-config] pour votre yaml
+
 <br /><br />
 ---
 ## Onduleur
@@ -238,6 +240,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[addon-config]: http://domosimple.eu/onduleur/
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_nodered&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [addon-mqtt]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_mosquitto&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [depot-mqtt]: https://github.com/jean-luc1203/smartphoton-ha-addon/
