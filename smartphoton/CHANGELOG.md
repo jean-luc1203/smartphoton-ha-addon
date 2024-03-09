@@ -1,3 +1,12 @@
+## 1.3.6
+- Correction connection auto mqtt
+- Correction Paramètre 11, 12 et 29 onduleur 24v
+- Retour QPGS1
+- Ajout code erreur
+- Ajout des parametres dans l'appareil smartphoton
+- Modification des noms de paramètres par défault pour compatibilités avec d'autres onduleurs
+- Ajout de tension de charge en vrac (paramètre 26 sous voltronic)
+
 ## 1.3.5
 - Correction Paramètre 11 et 2 sur les onduleurs non parallèles
 
