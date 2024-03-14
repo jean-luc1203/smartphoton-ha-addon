@@ -36,12 +36,12 @@ Vous pouvez vous aider du [Smartphoton Configuration][addon-config] pour votre y
    
 
 ### Option: `Choix port Liste Onduleur ou listonduleur`
-Choisir du port usb de d'onduleur. ("false" pour ne pas l'utiliser)
-Chemin : ip ou serial. (<ip>:<port>) ou /dev/serial/by-id/<nom du serial>
-Type : ip ou serial
-Onduleur : choix de la batterie. false ou voltronic
-multionduleur : Utilisation des qpgs.
-battTension : Tension des batterie branché sur l'onduleur
+Choisir du port usb de d'onduleur. ("false" pour ne pas l'utiliser)<br />
+Chemin : ip ou serial. (<ip>:<port>) ou /dev/serial/by-id/<nom du serial><br />
+Type : ip ou serial<br />
+Onduleur : choix de la batterie. false ou voltronic<br />
+multionduleur : Utilisation des qpgs.<br />
+battTension : Tension des batterie branché sur l'onduleur<br />
 
 
 <br /><br />
@@ -82,21 +82,14 @@ ou pour une communication avec onduleur en ip ou elfin
 
 <br /><br />
 ---
-## Nom des entités ou nameEntities
----
-
-Permet de personnalisé les noms des entités onduleur.
-
-<br /><br />
----
 ## Batterie
 ---
 
 ### Option: `Choix port Liste batterie ou listbatterie`
-Choisir du port usb de la batterie. ("false" pour ne pas l'utiliser)
-Chemin : ip ou serial. (<ip>:<port>) ou /dev/serial/by-id/<nom du serial>
-Type : ip ou serial
-Batterie : choix de la batterie. false ou pylontech
+Choisir du port usb de la batterie. ("false" pour ne pas l'utiliser)<br />
+Chemin : ip ou serial. (<ip>:<port>) ou /dev/serial/by-id/<nom du serial><br />
+Type : ip ou serial<br />
+Batterie : choix de la batterie. false ou pylontech<br />
 
 
 <br /><br />
@@ -129,6 +122,13 @@ ou pour une communication avec batterie en ip ou elfin
 | type | serial | oui | ip, serial |
 | batterie | pylontech | oui | false,pylontech |
 
+
+<br /><br />
+---
+## Nom des entités ou nameEntities
+---
+
+Permet de personnalisé les noms des entités onduleur.
 
 <br /><br />
 ---

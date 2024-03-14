@@ -1,3 +1,9 @@
+## 1.3.7
+- Mise a jour base-nodejs v0.1.4
+- Mise a jour node red v3.1.6
+- Mise a jour node-red-contrib-bigtimer v2.8.6
+- Mise a jour node-red-node-email v2.2.0
+
 ## 1.3.6
 - Correction connection auto mqtt
 - Correction Paramètre 11, 12 et 29 onduleur 24v
