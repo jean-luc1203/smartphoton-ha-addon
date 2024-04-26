@@ -53,13 +53,13 @@ else
 	mv /config/smartphoton/flows.json /config/smartphoton/flows.backup
 	cp /etc/node-red/flows.json /config/smartphoton/
 	
-	if bashio::fs.file_exists '/config/.storage/lovelace.dashboard_smartphoton.backup'; then
-      rm /config/.storage/lovelace.dashboard_smartphoton.backup
-    fi
-	if bashio::fs.file_exists '/config/.storage/lovelace.dashboard_smartphoton'; then
-      mv /config/.storage/lovelace.dashboard_smartphoton /config/.storage/lovelace.dashboard_smartphoton.backup
-	  cp /etc/node-red/lovelace.dashboard_smartphoton /config/.storage/
-    fi
+	#if bashio::fs.file_exists '/config/.storage/lovelace.dashboard_smartphoton.backup'; then
+    #  rm /config/.storage/lovelace.dashboard_smartphoton.backup
+    #fi
+	#if bashio::fs.file_exists '/config/.storage/lovelace.dashboard_smartphoton'; then
+    #  mv /config/.storage/lovelace.dashboard_smartphoton /config/.storage/lovelace.dashboard_smartphoton.backup
+	#  cp /etc/node-red/lovelace.dashboard_smartphoton /config/.storage/
+    #fi
 	
   fi
   
@@ -73,105 +73,16 @@ mv /config/smartphoton/flows.json /config/smartphoton/flows.backup
 cp /etc/node-red/flows.json /config/smartphoton/
 
 
-#batterie=$(bashio::config 'batterie')
-#onduleur=$(bashio::config 'onduleur')
 
-#Choix de l'onduleur
-#ONDULEUR=$(bashio::config 'onduleur')
-#usbOnduleur=$(bashio::config 'usbonduleur')
 
 if bashio::fs.file_exists '/config/smartphoton/elfinOnduleur'; then
 	rm /config/smartphoton/elfinOnduleur
 fi
 
-#if bashio::config.false 'elfinonduleur'; then
-
-#	if [ $ONDULEUR == 'voltronic' ]; then
-
-#		ttyOnduleur="/dev/tty-onduleur"
-#		echo "Configuration de l'onduleur Voltronic sur " $usbOnduleur
-#
-#		sed -i -e "s@$ttyOnduleur@$usbOnduleur@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
-
-
-#	elif [ $ONDULEUR == 'easun' ]; then
-
-#		ttyEASUN="/dev/ttyEASUN"
-#		echo "Configuration de l'onduleur Easun sur " $usbOnduleur
-
-#		sed -i -e "s@$ttyEASUN@$usbOnduleur@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
-
-#	fi
-#else
-
-#	elfinOnduleurip=$(bashio::config 'elfinonduleurip')
-#	elfinOnduleurPort=$(bashio::config 'elfinonduleurport')
-#	touch /config/smartphoton/elfinOnduleur
-#	echo $elfinOnduleurip
-#	echo $elfinOnduleurPort
-#	echo $elfinOnduleurip":"$elfinOnduleurPort >> /config/smartphoton/elfinOnduleur
-
-#fi
-
-#Choix de la Batterie
-#BATTERIE=$(bashio::config 'batterie')
-#usbBatterie=$(bashio::config 'usbbatterie')
-
 
 if bashio::fs.file_exists '/config/smartphoton/elfinBatterie'; then
 	rm /config/smartphoton/elfinBatterie
 fi
-
-#if bashio::config.false 'elfinbatterie'; then
-#	if [ $BATTERIE == 'pylontech' ]; then
-
-#		ttyBatterie="/dev/tty-pylontech"
-#		echo "Configuration de l'onduleur Pylontech sur " $usbBatterie
-
-#		sed -i -e "s@$ttyBatterie@$usbBatterie@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
-
-
-#	elif [ $ONDULEUR == 'jkbms' ]; then
-
-#		ttyBatterie="/dev/tty-jkbms"
-#		echo "Configuration de la batterie JKBMS sur " $usbBatterie
-
-#		sed -i -e "s@$ttyBatterie@$usbBatterie@g" /config/smartphoton/flows.json >> /config/smartphoton/flows.log
-
-#	fi
-
-#else
-
-#	elfinbatterieip=$(bashio::config 'elfinbatterieip')
-#	elfinbatteriePort=$(bashio::config 'elfinbatterieport')
-#	touch /config/smartphoton/elfinBatterie
-#	echo $elfinbatterieip
-#	echo $elfinbatteriePort
-#	echo $elfinbatterieip":"$elfinbatteriePort >> /config/smartphoton/elfinBatterie
-
-#fi
-
-#if bashio::fs.file_exists '/config/smartphoton/usbOnduleur'; then
-#  rm /config/smartphoton/usbOnduleur
-#fi
-
-#if bashio::fs.file_exists '/config/smartphoton/usbBatterie'; then
-#  rm /config/smartphoton/usbBatterie
-
-#fi
-
-#touch /config/smartphoton/usbOnduleur
-#ONDULEUR=$(bashio::config 'onduleur')
-#echo $ONDULEUR >> /config/smartphoton/usbOnduleur
-#bashio::log.info "${ONDULEUR}"
-
-
-#touch /config/smartphoton/usbBatterie
-#BATTERIE=$(bashio::config 'batterie')
-#echo $BATTERIE >> /config/smartphoton/usbBatterie
-#bashio::log.info "${BATTERIE}"
-
-
 
 
 # Pass in port & SSL settings
