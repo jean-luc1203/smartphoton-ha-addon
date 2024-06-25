@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.3.8
+version: 1.3.9
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -9,7 +9,7 @@ ingress: false
 ingress_stream: false
 panel_icon: mdi:sitemap
 init: false
-homeassistant: 2021.3.0
+homeassistant: 2023.3.0
 arch:
   - aarch64
   - amd64
