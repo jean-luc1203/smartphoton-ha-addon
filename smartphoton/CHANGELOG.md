@@ -1,3 +1,12 @@
+## 1.3.10
+- Correction du Life Cycle sur pylontech
+- Mise a jour node red 4.0.2
+- Mise a jour node-red-contrib-home-assistant-websocket v0.68.0
+- Mise a jour node-red-contrib-modbus v5.42.0
+- Mise a jour node-email v3.0.1
+- Mise a jour node-red-node-serialport v2.0.3
+- 
+
 ## 1.3.9
 - Modification de la classe watt en power
 - Nouvelle gestion pylontech
