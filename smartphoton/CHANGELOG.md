@@ -1,3 +1,10 @@
+
+
+## 1.3.11
+- mise a jour vers nodejs:0.2.4
+- Correction du chemin batterie
+
+
 ## 1.3.10
 - Correction du Life Cycle sur pylontech
 - Mise a jour node red 4.0.2
