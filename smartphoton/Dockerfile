@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base-nodejs:0.2.5
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:stable
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -24,6 +24,8 @@ RUN \
         git \
         icu-data-full \
         nginx \
+        nodejs \
+		npm \
         openssh-client \
         patch \
     \
